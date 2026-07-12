@@ -48,9 +48,12 @@ class User(BaseModel, AbstractUser):
     email = models.EmailField(unique=True, db_index=True)
     phone = models.CharField(max_length=20, blank=True, null=True, unique=True, db_index=True)
     
-    # We don't want to use username for login
-    username = None 
+    # Username re-enabled for flexible login
+    username = models.CharField(max_length=150, unique=True, null=True, blank=True)
     
+    department = models.CharField(max_length=100, blank=True)
+    employee_id = models.CharField(max_length=50, unique=True, null=True, blank=True)
+
     role = models.ForeignKey(Role, on_delete=models.SET_NULL, null=True, blank=True, related_name="users")
     company = models.ForeignKey(Company, on_delete=models.CASCADE, null=True, blank=True, related_name="users")
     region = models.ForeignKey(Region, on_delete=models.SET_NULL, null=True, blank=True, related_name="users")
@@ -83,3 +86,20 @@ class UserRole(BaseModel):
 
     def __str__(self):
         return f"{self.user} - {self.role}"
+
+
+class FailedLoginAttempt(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='failed_logins', null=True, blank=True)
+    email_attempted = models.EmailField(blank=True, null=True)
+    ip_address = models.GenericIPAddressField(null=True, blank=True)
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        db_table = "users_failed_login"
+        indexes = [
+            models.Index(fields=['user', 'timestamp']),
+            models.Index(fields=['email_attempted', 'timestamp']),
+        ]
+
+    def __str__(self):
+        return f"Failed login for {self.email_attempted or self.user} at {self.timestamp}"

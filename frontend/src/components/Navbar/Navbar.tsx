@@ -3,11 +3,13 @@ import { Search, Bell, Moon, Sun, ChevronDown } from 'lucide-react';
 import { cn } from '@/utils/cn';
 import { useLocation } from 'react-router-dom';
 import { useTheme } from '@/hooks/useTheme';
+import { useAuth } from '@/contexts/AuthContext';
 import { SearchModal } from './SearchModal';
 import { NotificationDropdown } from './NotificationDropdown';
 
 export const Navbar = () => {
   const { isDark, setIsDark } = useTheme();
+  const { user } = useAuth();
   const location = useLocation();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
@@ -76,9 +78,11 @@ export const Navbar = () => {
         <div className="w-px h-6 bg-slate-200 dark:bg-slate-700 mx-1"></div>
 
         <button className="flex items-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-800 p-1 pr-2 rounded-full transition-colors">
-          <img src="https://ui-avatars.com/api/?name=Admin+User&background=2563eb&color=fff" alt="User" className="w-8 h-8 rounded-full" />
+          <img src={`https://ui-avatars.com/api/?name=${encodeURIComponent(user?.first_name || 'Admin')}+${encodeURIComponent(user?.last_name || 'User')}&background=2563eb&color=fff`} alt="User" className="w-8 h-8 rounded-full" />
           <div className="hidden lg:block text-left mr-1">
-            <p className="text-sm font-medium text-slate-700 dark:text-slate-200 leading-none">Admin User</p>
+            <p className="text-sm font-medium text-slate-700 dark:text-slate-200 leading-none">
+              {user ? `${user.first_name} ${user.last_name}` : 'Admin User'}
+            </p>
           </div>
           <ChevronDown size={16} className="text-slate-400" />
         </button>

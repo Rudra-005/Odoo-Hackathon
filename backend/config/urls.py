@@ -6,6 +6,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, Spec
 
 api_v1_patterns = [
     path('common/', include('apps.common.urls')),
+    path('auth/', include('apps.users.urls')),
     path('users/', include('apps.users.urls')),
     path('vehicles/', include('apps.vehicles.urls')),
     path('drivers/', include('apps.drivers.urls')),

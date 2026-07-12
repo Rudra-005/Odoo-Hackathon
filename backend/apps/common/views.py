@@ -5,7 +5,8 @@ from django.db.models import Q
 from apps.vehicles.models import Vehicle
 from apps.drivers.models import Driver
 from apps.trips.models import Trip
-
+from .models import Company, Settings
+from .serializers import CompanySerializer
 class GlobalSearchView(APIView):
     permission_classes = [AllowAny]
 
@@ -56,3 +57,41 @@ class GlobalSearchView(APIView):
             })
 
         return Response(results)
+
+class CompanySettingsView(APIView):
+    permission_classes = [AllowAny] # For hackathon, typically IsAuthenticated
+
+    def get_company(self):
+        company = Company.objects.first()
+        if not company:
+            company = Company.objects.create(
+                name="TransitOps Global",
+                gst_number="REG-2024-9982",
+                address="123 Logistics Avenue, Enterprise Zone, NY 10001",
+                email="contact@transitops.com",
+                phone="+1 (555) 123-4567"
+            )
+        return company
+
+    def get(self, request, *args, **kwargs):
+        company = self.get_company()
+        serializer = CompanySerializer(company)
+        return Response({
+            'success': True,
+            'data': serializer.data
+        })
+
+    def put(self, request, *args, **kwargs):
+        company = self.get_company()
+        serializer = CompanySerializer(company, data=request.data, partial=True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({
+                'success': True,
+                'data': serializer.data,
+                'message': 'Company settings updated successfully'
+            })
+        return Response({
+            'success': False,
+            'errors': serializer.errors
+        }, status=400)

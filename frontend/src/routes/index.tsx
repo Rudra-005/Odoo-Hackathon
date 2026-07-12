@@ -1,6 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import { DashboardLayout } from '../layouts/DashboardLayout';
+import { ProtectedRoute } from '../components/ProtectedRoute';
 
 // Lazy loading pages for code splitting
 const Dashboard = React.lazy(() => import('../pages/Dashboard'));
@@ -12,11 +13,24 @@ const FuelManagement = React.lazy(() => import('../pages/Fuel'));
 const Expenses = React.lazy(() => import('../pages/Expenses'));
 const Reports = React.lazy(() => import('../pages/Reports'));
 const Settings = React.lazy(() => import('../pages/Settings'));
+const Login = React.lazy(() => import('../pages/Auth/Login'));
 
 export const router = createBrowserRouter([
   {
+    path: '/login',
+    element: (
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <Login />
+      </React.Suspense>
+    ),
+  },
+  {
     path: '/',
-    element: <DashboardLayout />,
+    element: (
+      <ProtectedRoute>
+        <DashboardLayout />
+      </ProtectedRoute>
+    ),
     errorElement: <div>Error occurred.</div>,
     children: [
       {

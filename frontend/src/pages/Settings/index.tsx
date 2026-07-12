@@ -1,19 +1,55 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Settings as SettingsIcon, Building2, Bell, Shield, User, Globe, Mail } from 'lucide-react';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
+import toast from 'react-hot-toast';
 import { Button } from '../../components/ui/Button';
 import { Input } from '../../components/ui/Input';
 import { cn } from '../../utils/cn';
+import SettingsService from '../../services/settings.service';
+import { CompanyProfile } from '../../types/settings';
 
 export default function Settings() {
   const [activeTab, setActiveTab] = useState('company');
-  const [isSaving, setIsSaving] = useState(false);
+  const queryClient = useQueryClient();
+
+  const [companyForm, setCompanyForm] = useState<Partial<CompanyProfile>>({
+    name: '', gst_number: '', address: '', email: '', phone: ''
+  });
+
+  const { data: companyData, isLoading } = useQuery({
+    queryKey: ['companySettings'],
+    queryFn: SettingsService.getCompanyProfile,
+  });
+
+  useEffect(() => {
+    if (companyData) {
+      setCompanyForm({
+        name: companyData.name,
+        gst_number: companyData.gst_number,
+        address: companyData.address,
+        email: companyData.email,
+        phone: companyData.phone
+      });
+    }
+  }, [companyData]);
+
+  const updateMutation = useMutation({
+    mutationFn: (data: Partial<CompanyProfile>) => SettingsService.updateCompanyProfile(data),
+    onSuccess: () => {
+      toast.success('Settings updated successfully');
+      queryClient.invalidateQueries({ queryKey: ['companySettings'] });
+    },
+    onError: () => {
+      toast.error('Failed to update settings');
+    }
+  });
 
   const handleSave = () => {
-    setIsSaving(true);
-    setTimeout(() => {
-      setIsSaving(false);
-      // We can add a toast notification here if needed
-    }, 1000);
+    if (activeTab === 'company') {
+      updateMutation.mutate(companyForm);
+    } else {
+      toast.success('Settings saved');
+    }
   };
 
   const tabs = [
@@ -34,7 +70,7 @@ export default function Settings() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Configure global preferences and system integrations.</p>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="primary" onClick={handleSave} isLoading={isSaving}>
+          <Button variant="primary" onClick={handleSave} isLoading={updateMutation.isPending}>
             Save Changes
           </Button>
         </div>
@@ -74,23 +110,38 @@ export default function Settings() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium mb-1">Company Name</label>
-                  <Input defaultValue="TransitOps Global" />
+                  <Input 
+                    value={companyForm.name} 
+                    onChange={e => setCompanyForm({...companyForm, name: e.target.value})} 
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium mb-1">Registration Number</label>
-                  <Input defaultValue="REG-2024-9982" />
+                  <Input 
+                    value={companyForm.gst_number} 
+                    onChange={e => setCompanyForm({...companyForm, gst_number: e.target.value})} 
+                  />
                 </div>
                 <div className="md:col-span-2">
                   <label className="block text-sm font-medium mb-1">Headquarters Address</label>
-                  <Input defaultValue="123 Logistics Avenue, Enterprise Zone, NY 10001" />
+                  <Input 
+                    value={companyForm.address} 
+                    onChange={e => setCompanyForm({...companyForm, address: e.target.value})} 
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium mb-1">Contact Email</label>
-                  <Input defaultValue="contact@transitops.com" />
+                  <Input 
+                    value={companyForm.email} 
+                    onChange={e => setCompanyForm({...companyForm, email: e.target.value})} 
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium mb-1">Support Phone</label>
-                  <Input defaultValue="+1 (555) 123-4567" />
+                  <Input 
+                    value={companyForm.phone} 
+                    onChange={e => setCompanyForm({...companyForm, phone: e.target.value})} 
+                  />
                 </div>
               </div>
             </div>

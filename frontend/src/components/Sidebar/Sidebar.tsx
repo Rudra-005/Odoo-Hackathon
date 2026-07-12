@@ -6,6 +6,7 @@ import {
   LogOut, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { cn } from '@/utils/cn';
+import { useAuth } from '@/contexts/AuthContext';
 
 const navigation = [
   { name: 'Dashboard', to: '/', icon: LayoutDashboard },
@@ -21,6 +22,7 @@ const navigation = [
 
 export const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(false);
+  const { logout } = useAuth();
 
   return (
     <aside className={cn(
@@ -29,8 +31,8 @@ export const Sidebar = () => {
     )}>
       {/* Brand */}
       <div className="h-[70px] flex items-center px-6 border-b border-light-border dark:border-dark-border shrink-0">
-        <div className="w-8 h-8 rounded-lg bg-primary-600 flex items-center justify-center text-white font-bold shrink-0">
-          T
+        <div className="w-8 h-8 rounded-lg bg-orange-100 dark:bg-orange-500/20 flex items-center justify-center text-orange-500 shrink-0">
+          <Truck size={20} strokeWidth={2.5} />
         </div>
         {!collapsed && (
           <span className="ml-3 text-lg font-bold text-slate-900 dark:text-white truncate">TransitOps</span>
@@ -67,10 +69,13 @@ export const Sidebar = () => {
 
       {/* Logout */}
       <div className="p-4 border-t border-light-border dark:border-dark-border shrink-0">
-        <button className={cn(
-          'flex items-center px-3 py-2.5 rounded-xl font-medium text-slate-600 hover:bg-red-50 hover:text-red-600 dark:text-slate-400 dark:hover:bg-red-900/20 dark:hover:text-red-400 transition-all duration-200 w-full group',
-          collapsed && 'justify-center'
-        )}>
+        <button 
+          onClick={logout}
+          className={cn(
+            'flex items-center px-3 py-2.5 rounded-xl font-medium text-slate-600 hover:bg-red-50 hover:text-red-600 dark:text-slate-400 dark:hover:bg-red-900/20 dark:hover:text-red-400 transition-all duration-200 w-full group',
+            collapsed && 'justify-center'
+          )}
+        >
           <LogOut size={20} className="shrink-0 group-hover:-translate-x-1 transition-transform" />
           {!collapsed && <span className="ml-3 truncate">Logout</span>}
         </button>
