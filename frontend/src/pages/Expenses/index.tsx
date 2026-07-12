@@ -10,6 +10,7 @@ import { ColumnDef } from '@tanstack/react-table';
 import toast from 'react-hot-toast';
 import { useDebounce } from '../../hooks/useDebounce';
 import { ExpenseModal } from './components/ExpenseModal';
+import { exportToCsv } from '../../utils/exportCsv';
 
 export default function Expenses() {
   const queryClient = useQueryClient();
@@ -42,6 +43,26 @@ export default function Expenses() {
       queryClient.invalidateQueries({ queryKey: ['expenses'] });
     },
   });
+
+  const handleExport = async () => {
+    const toastId = toast.loading('Preparing export...');
+    try {
+      const all = await ExpenseService.getExpenses({ page: 1, search: '', page_size: 10000 });
+      const rows = (all?.results || []).map((e: Expense) => ({
+        id: e.expense_number,
+        category: e.category_name || '',
+        vehicle: e.vehicle_registration || '',
+        vendor: e.vendor || '',
+        date: e.expense_date,
+        net_amount: e.net_amount,
+        status: e.status,
+      }));
+      exportToCsv(rows, 'Expenses_Report');
+      toast.success('Export downloaded!', { id: toastId });
+    } catch {
+      toast.error('Export failed', { id: toastId });
+    }
+  };
 
   const columns: ColumnDef<Expense>[] = [
     {
@@ -131,7 +152,7 @@ export default function Expenses() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Manage fleet expenses, approvals, and payments</p>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="secondary">
+          <Button variant="secondary" onClick={handleExport}>
             <Download className="w-4 h-4 mr-2" />
             Export
           </Button>

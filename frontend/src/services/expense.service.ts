@@ -7,6 +7,7 @@ interface FetchExpenseParams {
   category?: string;
   vehicle?: string;
   status?: string;
+  page_size?: number;
 }
 
 interface PaginatedResponse<T> {

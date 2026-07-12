@@ -8,6 +8,7 @@ interface FetchVehiclesParams {
   vehicle_type?: string;
   region?: string;
   ordering?: string;
+  page_size?: number;
 }
 
 interface PaginatedResponse<T> {

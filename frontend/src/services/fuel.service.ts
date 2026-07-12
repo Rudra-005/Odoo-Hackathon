@@ -7,6 +7,7 @@ interface FetchFuelParams {
   vehicle?: string;
   driver?: string;
   fuel_type?: string;
+  page_size?: number;
 }
 
 interface PaginatedResponse<T> {

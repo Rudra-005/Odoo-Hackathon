@@ -298,195 +298,1089 @@ INFO 2026-07-12 12:46:30,378 middleware 9988 16072 Incoming Request: GET /api/v1
 INFO 2026-07-12 12:46:30,444 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.066s
 INFO 2026-07-12 12:46:53,323 middleware 20696 28708 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
 INFO 2026-07-12 12:46:53,385 middleware 20696 28708 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.063s
-INFO 2026-07-12 08:12:13,003 middleware 88036 6129102848 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:12:13,005 middleware 88036 6179581952 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:12:13,005 middleware 88036 6145929216 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:12:13,006 middleware 88036 6162755584 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:12:13,189 middleware 88036 6129102848 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.186s
-INFO 2026-07-12 08:12:13,192 middleware 88036 6162755584 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.186s
-INFO 2026-07-12 08:12:13,203 middleware 88036 6179581952 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.197s
-INFO 2026-07-12 08:12:13,262 middleware 88036 6145929216 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.257s
-INFO 2026-07-12 08:12:23,722 middleware 88036 6145929216 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:12:24,171 middleware 88036 6145929216 Completed Request: POST /api/v1/chatbot/chat/ | Status: 500 | Duration: 0.449s
-INFO 2026-07-12 08:12:39,352 middleware 88036 6162755584 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:12:39,353 middleware 88036 6179581952 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:12:39,353 middleware 88036 6145929216 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:12:39,354 middleware 88036 6129102848 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:12:39,473 middleware 88036 6145929216 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.120s
-INFO 2026-07-12 08:12:39,476 middleware 88036 6162755584 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.125s
-INFO 2026-07-12 08:12:39,484 middleware 88036 6129102848 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.130s
-INFO 2026-07-12 08:12:39,514 middleware 88036 6179581952 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.161s
-INFO 2026-07-12 08:13:54,535 middleware 90974 6166114304 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:13:54,535 middleware 90974 6216593408 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:13:54,536 middleware 90974 6182940672 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:13:54,536 middleware 90974 6199767040 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:13:54,618 middleware 90974 6199767040 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.082s
-INFO 2026-07-12 08:13:54,619 middleware 90974 6166114304 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.085s
-INFO 2026-07-12 08:13:54,638 middleware 90974 6216593408 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.103s
-INFO 2026-07-12 08:13:54,694 middleware 90974 6182940672 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.159s
-INFO 2026-07-12 08:14:10,898 middleware 90974 6182940672 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:14:11,323 middleware 90974 6182940672 Completed Request: POST /api/v1/chatbot/chat/ | Status: 500 | Duration: 0.426s
-INFO 2026-07-12 08:14:19,563 middleware 90974 6182940672 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:14:19,565 middleware 90974 6199767040 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:14:19,565 middleware 90974 6216593408 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:14:19,567 middleware 90974 6166114304 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:14:19,623 middleware 90974 6199767040 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.059s
-INFO 2026-07-12 08:14:19,629 middleware 90974 6182940672 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.067s
-INFO 2026-07-12 08:14:19,639 middleware 90974 6166114304 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.073s
-INFO 2026-07-12 08:14:19,733 middleware 90974 6216593408 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.168s
-INFO 2026-07-12 08:18:19,493 middleware 90974 6166114304 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:18:19,499 middleware 90974 6199767040 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:18:19,508 middleware 90974 6182940672 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:18:19,509 middleware 90974 6216593408 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:18:19,626 middleware 90974 6216593408 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.118s
-INFO 2026-07-12 08:18:19,628 middleware 90974 6199767040 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.129s
-INFO 2026-07-12 08:18:19,635 middleware 90974 6182940672 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.127s
-INFO 2026-07-12 08:18:19,660 middleware 90974 6166114304 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.167s
-INFO 2026-07-12 08:18:25,888 middleware 42903 6204534784 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:18:26,520 middleware 42903 6204534784 Completed Request: POST /api/v1/chatbot/chat/ | Status: 500 | Duration: 0.632s
-INFO 2026-07-12 08:18:46,445 middleware 42903 6204534784 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:18:46,672 middleware 42903 6204534784 Completed Request: POST /api/v1/chatbot/chat/ | Status: 500 | Duration: 0.227s
-INFO 2026-07-12 08:19:45,763 middleware 42903 6204534784 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:19:45,767 middleware 42903 6221934592 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:19:45,782 middleware 42903 6238760960 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:19:45,788 middleware 42903 6255587328 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:19:45,836 middleware 42903 6238760960 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.054s
-INFO 2026-07-12 08:19:45,844 middleware 42903 6255587328 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.056s
-INFO 2026-07-12 08:19:45,844 middleware 42903 6204534784 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.083s
-INFO 2026-07-12 08:19:45,872 middleware 42903 6221934592 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.106s
-INFO 2026-07-12 08:19:48,889 middleware 42903 6221934592 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:19:48,890 middleware 42903 6204534784 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:19:48,891 middleware 42903 6255587328 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:19:48,891 middleware 42903 6238760960 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:19:48,952 middleware 42903 6255587328 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.061s
-INFO 2026-07-12 08:19:48,957 middleware 42903 6221934592 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.069s
-INFO 2026-07-12 08:19:48,966 middleware 42903 6238760960 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.075s
-INFO 2026-07-12 08:19:48,989 middleware 42903 6204534784 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.099s
-INFO 2026-07-12 08:21:22,923 middleware 46953 12901707776 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:21:22,924 middleware 46953 12918534144 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:21:22,924 middleware 46953 12935360512 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:21:22,930 middleware 46953 12952186880 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:21:23,050 middleware 46953 12935360512 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.126s
-INFO 2026-07-12 08:21:23,062 middleware 46953 12901707776 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.140s
-INFO 2026-07-12 08:21:23,069 middleware 46953 12952186880 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.139s
-INFO 2026-07-12 08:21:23,104 middleware 46953 12918534144 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.181s
-INFO 2026-07-12 08:21:28,233 middleware 46953 12901707776 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:21:28,234 middleware 46953 12918534144 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:21:28,236 middleware 46953 12935360512 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:21:28,275 middleware 46953 12952186880 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:21:28,386 middleware 46953 12935360512 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.150s
-INFO 2026-07-12 08:21:28,395 middleware 46953 12952186880 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.120s
-INFO 2026-07-12 08:21:28,396 middleware 46953 12901707776 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.164s
-INFO 2026-07-12 08:21:28,440 middleware 46953 12918534144 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.206s
-INFO 2026-07-12 08:21:33,358 middleware 46953 12918534144 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:21:33,676 middleware 46953 12918534144 Completed Request: POST /api/v1/chatbot/chat/ | Status: 500 | Duration: 0.320s
-INFO 2026-07-12 08:22:24,963 middleware 21687 6194360320 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:22:24,964 middleware 21687 6244839424 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:22:24,964 middleware 21687 6228013056 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:22:24,971 middleware 21687 6211186688 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:22:25,089 middleware 21687 6194360320 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.126s
-INFO 2026-07-12 08:22:25,094 middleware 21687 6228013056 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.129s
-INFO 2026-07-12 08:22:25,099 middleware 21687 6244839424 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.136s
-INFO 2026-07-12 08:22:25,150 middleware 21687 6211186688 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.179s
-INFO 2026-07-12 08:25:45,928 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:25:45,928 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:25:45,929 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:25:45,929 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:25:46,274 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.347s
-INFO 2026-07-12 08:25:46,278 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.349s
-INFO 2026-07-12 08:25:46,279 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.351s
-INFO 2026-07-12 08:25:46,441 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.513s
-INFO 2026-07-12 08:25:47,460 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:25:47,464 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:25:47,468 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:25:47,500 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:25:47,586 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.118s
-INFO 2026-07-12 08:25:47,597 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.137s
-INFO 2026-07-12 08:25:47,609 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.110s
-INFO 2026-07-12 08:25:47,631 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.167s
-INFO 2026-07-12 08:25:53,042 middleware 52936 6209269760 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:25:53,621 middleware 52936 6209269760 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.579s
-INFO 2026-07-12 08:26:01,900 middleware 52936 6209269760 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:26:02,508 middleware 52936 6209269760 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.609s
-INFO 2026-07-12 08:26:32,664 middleware 52936 6209269760 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:26:33,072 middleware 52936 6209269760 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.408s
-INFO 2026-07-12 08:27:49,850 middleware 52936 6209269760 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
-INFO 2026-07-12 08:27:50,344 middleware 52936 6209269760 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.494s
-INFO 2026-07-12 08:28:28,465 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:28:28,467 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:28:28,468 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:28:28,469 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:28:28,624 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.160s
-INFO 2026-07-12 08:28:28,627 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.160s
-INFO 2026-07-12 08:28:28,630 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.161s
-INFO 2026-07-12 08:28:28,707 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.238s
-INFO 2026-07-12 08:28:30,523 middleware 52936 6242922496 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
-INFO 2026-07-12 08:28:30,557 middleware 52936 6242922496 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.035s
-INFO 2026-07-12 08:28:33,477 middleware 52936 6242922496 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
-INFO 2026-07-12 08:28:33,537 middleware 52936 6242922496 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.060s
-INFO 2026-07-12 08:28:35,469 middleware 52936 6242922496 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
-INFO 2026-07-12 08:28:35,504 middleware 52936 6242922496 Completed Request: GET /api/v1/trips/ | Status: 200 | Duration: 0.036s
-INFO 2026-07-12 08:28:37,269 middleware 52936 6242922496 Incoming Request: GET /api/v1/maintenance/ | User: AnonymousUser
-INFO 2026-07-12 08:28:37,303 middleware 52936 6242922496 Completed Request: GET /api/v1/maintenance/ | Status: 200 | Duration: 0.034s
-INFO 2026-07-12 08:28:39,156 middleware 52936 6242922496 Incoming Request: GET /api/v1/fuel/ | User: AnonymousUser
-INFO 2026-07-12 08:28:39,198 middleware 52936 6242922496 Completed Request: GET /api/v1/fuel/ | Status: 200 | Duration: 0.042s
-INFO 2026-07-12 08:28:40,588 middleware 52936 6242922496 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
-INFO 2026-07-12 08:28:40,654 middleware 52936 6242922496 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.067s
-INFO 2026-07-12 08:28:42,806 middleware 52936 6242922496 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
-INFO 2026-07-12 08:28:42,840 middleware 52936 6242922496 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.034s
-INFO 2026-07-12 08:28:45,453 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:28:45,461 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:28:45,461 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:28:45,461 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:28:45,540 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.079s
-INFO 2026-07-12 08:28:45,548 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.087s
-INFO 2026-07-12 08:28:45,548 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.087s
-INFO 2026-07-12 08:28:45,582 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.130s
-INFO 2026-07-12 08:30:57,694 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:30:57,696 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:30:57,701 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:30:57,703 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:30:57,822 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.121s
-INFO 2026-07-12 08:30:57,824 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.131s
-INFO 2026-07-12 08:30:57,831 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.135s
-INFO 2026-07-12 08:30:57,855 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.152s
-INFO 2026-07-12 08:31:07,157 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:31:07,158 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:31:07,159 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:31:07,159 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:31:07,243 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.084s
-INFO 2026-07-12 08:31:07,248 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.088s
-INFO 2026-07-12 08:31:07,248 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.092s
-INFO 2026-07-12 08:31:07,273 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.115s
-INFO 2026-07-12 08:31:10,084 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:31:10,085 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:31:10,085 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:31:10,085 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:31:10,145 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.060s
-INFO 2026-07-12 08:31:10,156 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.071s
-INFO 2026-07-12 08:31:10,156 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.073s
-INFO 2026-07-12 08:31:10,180 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.095s
-INFO 2026-07-12 08:31:25,648 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:31:25,650 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:31:25,650 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:31:25,651 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:31:25,696 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.045s
-INFO 2026-07-12 08:31:25,705 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.055s
-INFO 2026-07-12 08:31:25,705 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.058s
-INFO 2026-07-12 08:31:25,726 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.076s
-INFO 2026-07-12 08:32:41,212 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:32:41,212 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:32:41,213 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:32:41,213 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:32:41,310 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.097s
-INFO 2026-07-12 08:32:41,319 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.107s
-INFO 2026-07-12 08:32:41,322 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.110s
-INFO 2026-07-12 08:32:41,367 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.155s
-INFO 2026-07-12 08:32:43,704 middleware 52936 6192443392 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
-INFO 2026-07-12 08:32:43,706 middleware 52936 6226096128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
-INFO 2026-07-12 08:32:43,706 middleware 52936 6242922496 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
-INFO 2026-07-12 08:32:43,707 middleware 52936 6209269760 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
-INFO 2026-07-12 08:32:43,806 middleware 52936 6209269760 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.100s
-INFO 2026-07-12 08:32:43,809 middleware 52936 6242922496 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.103s
-INFO 2026-07-12 08:32:43,814 middleware 52936 6226096128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.108s
-INFO 2026-07-12 08:32:43,870 middleware 52936 6192443392 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.166s
+INFO 2026-07-12 12:55:21,133 middleware 27080 27028 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:55:21,292 middleware 27080 27028 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.161s
+INFO 2026-07-12 12:55:23,593 middleware 27080 27028 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:55:23,702 middleware 27080 27028 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.109s
+INFO 2026-07-12 12:55:25,752 middleware 27080 27028 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:55:25,803 middleware 27080 27028 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.051s
+INFO 2026-07-12 12:55:26,814 middleware 27080 27028 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:55:26,870 middleware 27080 27028 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.056s
+INFO 2026-07-12 12:55:27,780 middleware 27080 27028 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 12:55:27,781 middleware 27080 13976 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 12:55:27,865 middleware 27080 13976 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.084s
+INFO 2026-07-12 12:55:27,868 middleware 27080 13976 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 12:55:27,932 middleware 27080 27028 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.152s
+INFO 2026-07-12 12:55:27,937 middleware 27080 27028 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 12:55:27,946 middleware 27080 13976 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.078s
+INFO 2026-07-12 12:55:28,027 middleware 27080 27028 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.091s
+INFO 2026-07-12 12:55:29,607 middleware 27080 27028 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 12:55:29,608 middleware 27080 13976 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 12:55:29,609 middleware 27080 1768 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 12:55:29,609 middleware 27080 33704 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 12:55:29,686 middleware 27080 1768 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 12:55:29,691 middleware 27080 27028 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.084s
+INFO 2026-07-12 12:55:29,713 middleware 27080 33704 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.104s
+INFO 2026-07-12 12:55:29,737 middleware 27080 13976 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.129s
+INFO 2026-07-12 12:56:37,185 middleware 27080 13976 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 12:56:37,186 middleware 27080 33704 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 12:56:37,187 middleware 27080 27028 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 12:56:37,187 middleware 27080 1768 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 12:56:37,302 middleware 27080 27028 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.116s
+INFO 2026-07-12 12:56:37,319 middleware 27080 13976 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.133s
+INFO 2026-07-12 12:56:37,337 middleware 27080 1768 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.150s
+INFO 2026-07-12 12:56:37,392 middleware 27080 33704 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.205s
+INFO 2026-07-12 12:57:12,861 middleware 27080 33704 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 12:57:12,957 middleware 27080 33704 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.096s
+INFO 2026-07-12 12:57:31,688 middleware 27080 33704 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:57:31,764 middleware 27080 33704 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 12:57:46,458 middleware 27080 33704 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 12:57:46,739 middleware 27080 33704 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.281s
+INFO 2026-07-12 12:57:57,980 middleware 27080 33704 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:57:58,077 middleware 27080 33704 Completed Request: GET /api/v1/trips/ | Status: 200 | Duration: 0.097s
+INFO 2026-07-12 12:58:14,988 middleware 27080 33704 Incoming Request: GET /api/v1/maintenance/ | User: AnonymousUser
+INFO 2026-07-12 12:58:15,082 middleware 27080 33704 Completed Request: GET /api/v1/maintenance/ | Status: 200 | Duration: 0.094s
+INFO 2026-07-12 12:58:25,827 middleware 27080 33704 Incoming Request: GET /api/v1/fuel/ | User: AnonymousUser
+INFO 2026-07-12 12:58:25,921 middleware 27080 33704 Completed Request: GET /api/v1/fuel/ | Status: 200 | Duration: 0.096s
+INFO 2026-07-12 12:58:35,968 middleware 27080 33704 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 12:58:36,076 middleware 27080 33704 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.107s
+INFO 2026-07-12 12:58:52,612 middleware 27080 33704 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:58:52,691 middleware 27080 33704 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.079s
+INFO 2026-07-12 12:59:26,182 middleware 27080 33704 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 12:59:26,183 middleware 27080 1768 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 12:59:26,184 middleware 27080 13976 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 12:59:26,185 middleware 27080 27028 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 12:59:26,304 middleware 27080 13976 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.120s
+INFO 2026-07-12 12:59:26,308 middleware 27080 33704 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.126s
+INFO 2026-07-12 12:59:26,356 middleware 27080 27028 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.171s
+INFO 2026-07-12 12:59:26,408 middleware 27080 1768 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.225s
+INFO 2026-07-12 13:01:52,172 middleware 27080 1768 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 13:01:52,173 middleware 27080 27028 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 13:01:52,174 middleware 27080 33704 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 13:01:52,176 middleware 27080 13976 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 13:01:52,314 middleware 27080 33704 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.139s
+INFO 2026-07-12 13:01:52,315 middleware 27080 1768 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.143s
+INFO 2026-07-12 13:01:52,390 middleware 27080 13976 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.213s
+INFO 2026-07-12 13:01:52,445 middleware 27080 27028 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.272s
+INFO 2026-07-12 13:48:20,498 middleware 27080 36744 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 13:48:20,503 middleware 27080 34736 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 13:48:20,554 middleware 27080 5456 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 13:48:20,600 middleware 27080 22476 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 13:48:20,746 middleware 27080 34736 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.243s
+INFO 2026-07-12 13:48:20,747 middleware 27080 22476 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.148s
+INFO 2026-07-12 13:48:20,767 middleware 27080 5456 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.214s
+INFO 2026-07-12 13:48:20,834 middleware 27080 36744 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.341s
+INFO 2026-07-12 13:52:05,234 middleware 27080 5456 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 13:52:05,238 middleware 27080 34736 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 13:52:05,239 middleware 27080 22476 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 13:52:05,240 middleware 27080 36744 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 13:52:05,487 middleware 27080 34736 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.249s
+INFO 2026-07-12 13:52:05,497 middleware 27080 22476 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.259s
+INFO 2026-07-12 13:52:05,529 middleware 27080 5456 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.303s
+INFO 2026-07-12 13:52:05,577 middleware 27080 36744 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.349s
+INFO 2026-07-12 13:52:30,144 middleware 27080 36744 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 13:52:30,258 middleware 27080 36744 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.113s
+INFO 2026-07-12 13:52:34,791 middleware 27080 36744 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 13:52:34,867 middleware 27080 36744 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 13:52:37,658 middleware 27080 36744 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 13:52:37,756 middleware 27080 36744 Completed Request: GET /api/v1/trips/ | Status: 200 | Duration: 0.099s
+INFO 2026-07-12 13:52:41,623 middleware 27080 36744 Incoming Request: GET /api/v1/maintenance/ | User: AnonymousUser
+INFO 2026-07-12 13:52:41,704 middleware 27080 36744 Completed Request: GET /api/v1/maintenance/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 13:52:46,844 middleware 27080 36744 Incoming Request: GET /api/v1/fuel/ | User: AnonymousUser
+INFO 2026-07-12 13:52:47,029 middleware 27080 36744 Completed Request: GET /api/v1/fuel/ | Status: 200 | Duration: 0.186s
+INFO 2026-07-12 13:52:50,331 middleware 27080 36744 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 13:52:50,433 middleware 27080 36744 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.102s
+INFO 2026-07-12 13:52:53,458 middleware 27080 36744 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 13:52:53,458 middleware 27080 5456 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 13:52:53,459 middleware 27080 22476 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 13:52:53,460 middleware 27080 34736 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 13:52:53,558 middleware 27080 22476 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.099s
+INFO 2026-07-12 13:52:53,565 middleware 27080 36744 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.109s
+INFO 2026-07-12 13:52:53,602 middleware 27080 34736 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.142s
+INFO 2026-07-12 13:52:53,637 middleware 27080 5456 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.178s
+INFO 2026-07-12 14:06:22,089 middleware 27080 34576 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:06:22,089 middleware 27080 29168 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:06:22,105 middleware 27080 3608 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:06:22,114 middleware 27080 5940 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:06:22,198 middleware 27080 3608 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.093s
+INFO 2026-07-12 14:06:22,211 middleware 27080 34576 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.121s
+INFO 2026-07-12 14:06:22,227 middleware 27080 5940 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.113s
+INFO 2026-07-12 14:06:22,259 middleware 27080 29168 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.170s
+INFO 2026-07-12 14:38:24,327 middleware 34624 35828 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:38:24,435 middleware 34624 35828 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.109s
+INFO 2026-07-12 14:38:24,439 middleware 34624 35828 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:38:24,539 middleware 34624 35828 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.100s
+INFO 2026-07-12 14:38:24,542 middleware 34624 35828 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:38:24,580 middleware 34624 29128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:38:24,616 middleware 34624 35828 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.074s
+INFO 2026-07-12 14:38:24,637 middleware 34624 29128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.057s
+INFO 2026-07-12 14:39:28,188 middleware 34624 29128 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:39:28,189 middleware 34624 35828 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:39:28,285 middleware 34624 29128 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.098s
+INFO 2026-07-12 14:39:28,290 middleware 34624 29128 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:39:28,334 middleware 34624 35828 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.146s
+INFO 2026-07-12 14:39:28,339 middleware 34624 35828 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:39:28,353 middleware 34624 29128 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.063s
+INFO 2026-07-12 14:39:28,412 middleware 34624 35828 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.074s
+INFO 2026-07-12 14:39:33,418 middleware 34624 35828 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 14:39:33,725 middleware 34624 35828 Completed Request: POST /api/v1/chatbot/chat/ | Status: 500 | Duration: 0.307s
+INFO 2026-07-12 14:39:40,502 middleware 34624 35828 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:39:40,503 middleware 34624 29128 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:39:40,505 middleware 34624 28148 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:39:40,505 middleware 34624 17084 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:39:40,597 middleware 34624 28148 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.093s
+INFO 2026-07-12 14:39:40,599 middleware 34624 35828 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.097s
+INFO 2026-07-12 14:39:40,630 middleware 34624 17084 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.125s
+INFO 2026-07-12 14:39:40,662 middleware 34624 29128 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.158s
+INFO 2026-07-12 14:44:14,347 middleware 36728 19196 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 14:44:15,156 middleware 36728 19196 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.810s
+INFO 2026-07-12 14:44:25,830 middleware 36728 24380 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:44:25,832 middleware 36728 15560 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:44:25,840 middleware 36728 30636 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:44:25,848 middleware 36728 29900 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:44:25,928 middleware 36728 30636 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.089s
+INFO 2026-07-12 14:44:25,929 middleware 36728 24380 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.099s
+INFO 2026-07-12 14:44:25,962 middleware 36728 29900 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.115s
+INFO 2026-07-12 14:44:25,998 middleware 36728 15560 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.166s
+INFO 2026-07-12 14:44:27,391 middleware 36728 15560 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:44:27,392 middleware 36728 29900 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:44:27,392 middleware 36728 24380 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:44:27,393 middleware 36728 30636 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:44:27,457 middleware 36728 24380 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.065s
+INFO 2026-07-12 14:44:27,466 middleware 36728 15560 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.075s
+INFO 2026-07-12 14:44:27,483 middleware 36728 30636 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.090s
+INFO 2026-07-12 14:44:27,606 middleware 36728 29900 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.214s
+INFO 2026-07-12 14:44:30,770 middleware 36728 29900 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 14:44:31,455 middleware 36728 29900 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.685s
+INFO 2026-07-12 14:44:39,050 middleware 36728 29900 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 14:44:39,690 middleware 36728 29900 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.640s
+INFO 2026-07-12 14:44:55,309 middleware 36728 29900 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:44:55,311 middleware 36728 15560 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:44:55,312 middleware 36728 30636 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:44:55,313 middleware 36728 24380 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:44:55,425 middleware 36728 15560 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.113s
+INFO 2026-07-12 14:44:55,439 middleware 36728 29900 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.129s
+INFO 2026-07-12 14:44:55,456 middleware 36728 24380 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.143s
+INFO 2026-07-12 14:44:55,488 middleware 36728 30636 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.175s
+INFO 2026-07-12 14:45:43,830 middleware 32980 35180 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:45:43,831 middleware 32980 20276 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:45:43,832 middleware 32980 35528 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:45:43,842 middleware 32980 31376 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:45:43,938 middleware 32980 35180 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.108s
+INFO 2026-07-12 14:45:43,961 middleware 32980 20276 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.130s
+INFO 2026-07-12 14:45:43,974 middleware 32980 31376 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.132s
+INFO 2026-07-12 14:45:44,011 middleware 32980 35528 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.179s
+INFO 2026-07-12 14:45:45,689 middleware 32980 35528 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:45:45,691 middleware 32980 20276 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:45:45,692 middleware 32980 31376 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:45:45,696 middleware 32980 35180 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:45:45,764 middleware 32980 20276 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.072s
+INFO 2026-07-12 14:45:45,769 middleware 32980 35528 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.080s
+INFO 2026-07-12 14:45:45,795 middleware 32980 35180 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.098s
+INFO 2026-07-12 14:45:45,825 middleware 32980 31376 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.133s
+INFO 2026-07-12 14:50:59,307 middleware 32980 36004 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:50:59,308 middleware 32980 25840 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:50:59,308 middleware 32980 11812 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:50:59,309 middleware 32980 8408 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:50:59,388 middleware 32980 11812 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.080s
+INFO 2026-07-12 14:50:59,395 middleware 32980 36004 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.088s
+INFO 2026-07-12 14:50:59,410 middleware 32980 8408 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.100s
+INFO 2026-07-12 14:50:59,433 middleware 32980 25840 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.125s
+INFO 2026-07-12 14:54:15,598 middleware 19664 7528 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:54:15,598 middleware 19664 17460 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:54:15,598 middleware 19664 35036 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:54:15,599 middleware 19664 34284 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:54:15,728 middleware 19664 7528 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.130s
+INFO 2026-07-12 14:54:15,747 middleware 19664 34284 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.149s
+INFO 2026-07-12 14:54:15,774 middleware 19664 35036 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.175s
+INFO 2026-07-12 14:54:15,819 middleware 19664 17460 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.222s
+INFO 2026-07-12 14:54:52,020 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:54:52,199 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.178s
+INFO 2026-07-12 14:54:52,202 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:54:52,253 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 14:55:24,341 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:24,415 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.074s
+INFO 2026-07-12 14:55:24,418 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:24,582 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.164s
+INFO 2026-07-12 14:55:25,761 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:25,852 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.090s
+INFO 2026-07-12 14:55:25,859 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:25,915 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 14:55:26,728 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:26,817 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.089s
+INFO 2026-07-12 14:55:26,821 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:26,975 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.154s
+INFO 2026-07-12 14:55:27,674 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:27,740 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 14:55:27,745 middleware 19664 17460 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:55:27,802 middleware 19664 17460 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.057s
+INFO 2026-07-12 14:58:26,604 middleware 19664 36104 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:58:26,765 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 14:58:26,806 middleware 19664 4192 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 14:58:26,832 middleware 19664 35108 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 14:58:26,860 middleware 19664 35296 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 14:58:26,924 middleware 19664 36104 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.323s
+INFO 2026-07-12 14:58:26,940 middleware 19664 36104 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:58:27,039 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.274s
+INFO 2026-07-12 14:58:27,047 middleware 19664 35108 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.215s
+INFO 2026-07-12 14:58:27,099 middleware 19664 36104 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.159s
+INFO 2026-07-12 14:58:27,118 middleware 19664 35296 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.258s
+INFO 2026-07-12 14:58:27,155 middleware 19664 4192 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.348s
+INFO 2026-07-12 14:59:08,055 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:08,131 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 14:59:08,137 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:08,199 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 14:59:09,105 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:09,181 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 14:59:09,186 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:09,244 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.058s
+INFO 2026-07-12 14:59:09,892 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:09,965 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.074s
+INFO 2026-07-12 14:59:09,969 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:10,030 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.061s
+INFO 2026-07-12 14:59:10,473 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:10,550 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 14:59:10,553 middleware 19664 4192 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:10,625 middleware 19664 4192 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.071s
+INFO 2026-07-12 14:59:10,695 middleware 19664 35296 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:10,766 middleware 19664 35296 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.071s
+INFO 2026-07-12 14:59:10,769 middleware 19664 35296 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:10,845 middleware 19664 35296 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 14:59:10,906 middleware 19664 36104 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:10,986 middleware 19664 36104 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.080s
+INFO 2026-07-12 14:59:10,991 middleware 19664 36104 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,082 middleware 19664 36104 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.091s
+INFO 2026-07-12 14:59:11,132 middleware 19664 35108 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,222 middleware 19664 35108 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.090s
+INFO 2026-07-12 14:59:11,227 middleware 19664 35108 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,303 middleware 19664 35108 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 14:59:11,404 middleware 19664 35108 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,483 middleware 19664 35108 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.080s
+INFO 2026-07-12 14:59:11,486 middleware 19664 35108 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,563 middleware 19664 35108 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 14:59:11,634 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,704 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.071s
+INFO 2026-07-12 14:59:11,708 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:11,775 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 14:59:44,908 middleware 19664 32464 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 14:59:44,979 middleware 19664 32464 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.071s
+INFO 2026-07-12 15:00:29,862 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:00:29,943 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 15:00:29,946 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:00:30,018 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.072s
+INFO 2026-07-12 15:00:30,146 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:00:30,227 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 15:00:30,231 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:00:30,347 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.117s
+INFO 2026-07-12 15:00:30,350 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:00:30,408 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.057s
+INFO 2026-07-12 15:00:30,410 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:00:30,586 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.176s
+INFO 2026-07-12 15:00:39,863 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:00:39,913 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:00:42,335 middleware 19664 35276 Incoming Request: GET /api/v1/common/search/ | User: AnonymousUser
+INFO 2026-07-12 15:00:42,439 middleware 19664 35276 Completed Request: GET /api/v1/common/search/ | Status: 200 | Duration: 0.104s
+INFO 2026-07-12 15:00:49,865 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:00:49,921 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:00:59,865 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:00:59,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:01:09,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:01:09,912 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:01:19,874 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:01:19,943 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.069s
+INFO 2026-07-12 15:01:29,868 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:01:29,930 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:01:39,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:01:39,932 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:01:49,875 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:01:49,936 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:01:59,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:01:59,917 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:02:09,876 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:02:10,037 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.161s
+INFO 2026-07-12 15:02:19,873 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:02:19,931 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.058s
+INFO 2026-07-12 15:02:29,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:02:29,934 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.063s
+INFO 2026-07-12 15:02:39,876 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:02:39,934 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.058s
+INFO 2026-07-12 15:02:49,869 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:02:49,926 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.057s
+INFO 2026-07-12 15:02:59,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:00,035 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.163s
+INFO 2026-07-12 15:03:09,873 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:09,922 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:03:19,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:19,919 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:03:29,867 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:29,915 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:03:39,876 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:39,925 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:03:49,866 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:49,917 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:03:59,869 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:03:59,913 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:04:09,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:09,949 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.079s
+INFO 2026-07-12 15:04:19,867 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:19,918 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:04:24,467 middleware 19664 14308 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:24,586 middleware 19664 14308 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.119s
+INFO 2026-07-12 15:04:24,590 middleware 19664 14308 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:04:24,734 middleware 19664 14308 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.143s
+INFO 2026-07-12 15:04:24,735 middleware 19664 17452 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:04:24,749 middleware 19664 35780 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:04:24,763 middleware 19664 36184 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:04:24,770 middleware 19664 17236 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:24,839 middleware 19664 17452 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.104s
+INFO 2026-07-12 15:04:24,858 middleware 19664 17236 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.087s
+INFO 2026-07-12 15:04:24,879 middleware 19664 35780 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.130s
+INFO 2026-07-12 15:04:24,952 middleware 19664 36184 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.189s
+INFO 2026-07-12 15:04:29,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:29,925 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:04:34,168 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:34,218 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:04:39,896 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:40,095 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.199s
+INFO 2026-07-12 15:04:44,163 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:44,323 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.160s
+INFO 2026-07-12 15:04:49,869 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:49,923 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:04:54,158 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:54,209 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:04:59,886 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:04:59,939 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:05:04,176 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:04,224 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:05:09,882 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:09,932 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:05:14,159 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:14,213 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:05:19,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:19,936 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.064s
+INFO 2026-07-12 15:05:24,158 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:24,220 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:05:29,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:29,926 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:05:34,982 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:35,042 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.060s
+INFO 2026-07-12 15:05:39,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:39,911 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:05:44,988 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:45,035 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:05:49,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:49,914 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:05:54,983 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:55,071 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.087s
+INFO 2026-07-12 15:05:59,882 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:05:59,936 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:06:04,985 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:05,038 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:06:09,874 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:09,929 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:06:14,977 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:15,028 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:06:19,863 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:19,928 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.064s
+INFO 2026-07-12 15:06:24,990 middleware 19664 36184 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:25,039 middleware 19664 36184 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:06:29,880 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:29,926 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:06:39,866 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:39,913 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:06:49,873 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:49,921 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:06:59,867 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:06:59,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:07:06,321 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:06,367 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:07:09,868 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:10,023 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.155s
+INFO 2026-07-12 15:07:19,867 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:19,913 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:07:29,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:29,922 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:07:39,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:39,933 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:07:49,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:49,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:07:59,873 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:07:59,919 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:08:06,013 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:06,280 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.269s
+INFO 2026-07-12 15:08:09,878 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:09,922 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:08:19,875 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:19,922 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:08:29,874 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:29,928 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:08:39,876 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:39,927 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:08:49,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:49,909 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:08:59,868 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:08:59,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:09:05,991 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:06,047 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:09:09,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:09,912 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.042s
+INFO 2026-07-12 15:09:19,877 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:19,926 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:09:29,875 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:29,920 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:09:39,865 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:39,911 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:09:49,861 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:49,908 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:09:59,866 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:09:59,914 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:10:05,990 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:06,050 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.059s
+INFO 2026-07-12 15:10:09,875 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:09,920 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:10:19,879 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:19,932 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:10:29,866 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:30,018 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.153s
+INFO 2026-07-12 15:10:39,868 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:39,920 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:10:49,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:49,917 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:10:59,874 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:10:59,918 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:11:05,994 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:06,046 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:11:09,867 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:09,912 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:11:19,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:19,909 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:11:29,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:29,910 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:11:39,868 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:39,913 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:11:49,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:49,907 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:11:59,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:11:59,915 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:12:06,000 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:06,048 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:12:09,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:09,922 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:12:19,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:19,918 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:12:29,865 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:30,019 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.155s
+INFO 2026-07-12 15:12:39,862 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:39,907 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:12:49,867 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:49,912 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:12:59,862 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:12:59,906 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:13:05,991 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:06,047 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:13:09,865 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:09,914 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:13:19,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:19,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:13:29,864 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:29,910 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:13:39,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:39,918 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:13:49,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:49,922 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:13:59,865 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:13:59,911 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:14:05,989 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:14:06,039 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:14:09,866 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:14:09,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:14:19,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:14:19,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:14:29,868 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:14:29,916 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:14:39,872 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:14:39,913 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:14:49,869 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:14:49,914 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:14:59,871 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:00,029 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.158s
+INFO 2026-07-12 15:15:06,005 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:06,057 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:15:09,875 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:09,921 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:15:19,874 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:20,032 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.159s
+INFO 2026-07-12 15:15:29,874 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:29,918 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:15:39,863 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:39,909 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:15:49,863 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:49,909 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:15:59,877 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:15:59,920 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:16:05,987 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:16:06,037 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:16:09,876 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:16:09,923 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:16:19,870 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:16:20,026 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.156s
+INFO 2026-07-12 15:16:29,866 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:16:29,914 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:16:39,876 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:16:39,923 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:16:49,875 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:16:50,039 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.164s
+INFO 2026-07-12 15:17:11,316 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:11,450 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.134s
+INFO 2026-07-12 15:17:11,454 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:11,526 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.072s
+INFO 2026-07-12 15:17:11,582 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:17:11,783 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.201s
+INFO 2026-07-12 15:17:11,786 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:17:11,894 middleware 19664 29528 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:17:11,904 middleware 19664 19716 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:17:11,972 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.186s
+INFO 2026-07-12 15:17:11,980 middleware 19664 29528 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.086s
+INFO 2026-07-12 15:17:12,010 middleware 19664 19716 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.106s
+INFO 2026-07-12 15:17:12,628 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:12,780 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.153s
+INFO 2026-07-12 15:17:12,790 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:12,923 middleware 19664 29528 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:17:12,932 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:17:12,934 middleware 19664 17820 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:17:12,998 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.208s
+INFO 2026-07-12 15:17:13,011 middleware 19664 19716 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:17:13,064 middleware 19664 17820 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.130s
+INFO 2026-07-12 15:17:13,065 middleware 19664 29528 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.143s
+INFO 2026-07-12 15:17:13,109 middleware 19664 19716 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.099s
+INFO 2026-07-12 15:17:13,112 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.180s
+INFO 2026-07-12 15:17:22,638 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:22,825 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.187s
+INFO 2026-07-12 15:17:32,632 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:32,826 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.194s
+INFO 2026-07-12 15:17:42,640 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:42,781 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.141s
+INFO 2026-07-12 15:17:52,633 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:17:52,883 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.250s
+INFO 2026-07-12 15:18:02,633 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:02,803 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.171s
+INFO 2026-07-12 15:18:12,634 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:12,814 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.180s
+INFO 2026-07-12 15:18:22,631 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:22,776 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.146s
+INFO 2026-07-12 15:18:23,315 middleware 19664 35276 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:18:23,795 middleware 19664 35276 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.479s
+INFO 2026-07-12 15:18:27,133 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:27,280 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.148s
+INFO 2026-07-12 15:18:27,287 middleware 19664 35276 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:27,372 middleware 19664 35276 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.085s
+INFO 2026-07-12 15:18:27,406 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:18:27,407 middleware 19664 19716 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:18:27,408 middleware 19664 29528 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:18:27,409 middleware 19664 17820 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:18:27,506 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.100s
+INFO 2026-07-12 15:18:27,507 middleware 19664 29528 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.099s
+INFO 2026-07-12 15:18:27,534 middleware 19664 17820 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.126s
+INFO 2026-07-12 15:18:27,557 middleware 19664 19716 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.150s
+INFO 2026-07-12 15:18:37,139 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:37,195 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.057s
+INFO 2026-07-12 15:18:47,133 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:47,183 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:18:57,136 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:18:57,181 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:19:03,243 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:03,371 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.128s
+INFO 2026-07-12 15:19:03,379 middleware 19664 19716 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:03,515 middleware 19664 19716 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.136s
+INFO 2026-07-12 15:19:03,537 middleware 19664 19716 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:19:03,538 middleware 19664 17820 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:19:03,541 middleware 19664 29528 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:19:03,542 middleware 19664 35276 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:19:03,658 middleware 19664 29528 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.117s
+INFO 2026-07-12 15:19:03,659 middleware 19664 19716 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.122s
+INFO 2026-07-12 15:19:03,680 middleware 19664 35276 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.138s
+INFO 2026-07-12 15:19:03,712 middleware 19664 17820 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.175s
+INFO 2026-07-12 15:19:13,252 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:13,302 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:19:15,599 middleware 19664 17820 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:19:15,671 middleware 19664 17820 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.072s
+INFO 2026-07-12 15:19:18,038 middleware 19664 17820 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 15:19:18,122 middleware 19664 17820 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.084s
+INFO 2026-07-12 15:19:19,084 middleware 19664 17820 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:19:19,213 middleware 19664 17820 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.129s
+INFO 2026-07-12 15:19:23,247 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:23,297 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:19:32,272 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:32,353 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.082s
+INFO 2026-07-12 15:19:32,358 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:32,425 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 15:19:33,266 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:33,325 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.059s
+INFO 2026-07-12 15:19:42,272 middleware 19664 36904 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:42,320 middleware 19664 36904 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:19:43,251 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:43,300 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:19:45,252 middleware 19664 36904 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:19:45,424 middleware 19664 36904 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.172s
+INFO 2026-07-12 15:19:45,427 middleware 19664 36904 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:19:45,569 middleware 19664 37384 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:19:45,576 middleware 19664 27860 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:19:45,642 middleware 19664 27860 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 15:19:45,661 middleware 19664 36904 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.233s
+INFO 2026-07-12 15:19:45,663 middleware 19664 37384 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.094s
+INFO 2026-07-12 15:19:52,267 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:52,321 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:19:53,249 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:19:53,295 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:20:02,266 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:02,317 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:20:03,248 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:03,297 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:20:12,262 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:12,312 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:20:13,244 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:13,295 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:20:19,301 middleware 19664 37384 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 15:20:21,187 middleware 19664 37384 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 1.886s
+INFO 2026-07-12 15:20:22,268 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:22,422 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.155s
+INFO 2026-07-12 15:20:23,246 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:23,298 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:20:32,274 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:32,326 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:20:33,255 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:33,306 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:20:42,268 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:42,322 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:20:42,336 middleware 19664 37384 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 15:20:43,251 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:43,284 middleware 19664 37384 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.947s
+INFO 2026-07-12 15:20:43,415 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.164s
+INFO 2026-07-12 15:20:52,262 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:52,307 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:20:53,247 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:20:53,293 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:21:02,980 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:03,029 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:21:03,242 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:03,290 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:21:12,979 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:13,026 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:21:13,255 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:13,304 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:21:22,983 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:23,030 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:21:23,244 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:23,288 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:21:32,985 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:33,030 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:21:33,244 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:33,290 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:21:42,982 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:43,028 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:21:43,248 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:43,294 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:21:52,991 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:53,040 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:21:53,255 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:21:53,304 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:22:03,251 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:03,302 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:22:05,978 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:06,030 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:22:13,243 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:13,291 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:22:23,257 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:23,321 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.064s
+INFO 2026-07-12 15:22:31,316 middleware 19664 35804 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:22:31,388 middleware 19664 35804 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.073s
+INFO 2026-07-12 15:22:33,254 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:33,299 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:22:41,009 middleware 19664 37384 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:22:41,010 middleware 19664 36904 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:22:41,012 middleware 19664 27860 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:22:41,117 middleware 19664 27860 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.105s
+INFO 2026-07-12 15:22:41,121 middleware 19664 27860 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:22:41,129 middleware 19664 37384 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.120s
+INFO 2026-07-12 15:22:41,135 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:41,214 middleware 19664 36904 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.204s
+INFO 2026-07-12 15:22:41,217 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.082s
+INFO 2026-07-12 15:22:41,264 middleware 19664 27860 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.143s
+INFO 2026-07-12 15:22:42,270 middleware 19664 27860 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:42,331 middleware 19664 27860 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:22:42,670 middleware 19664 27860 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:42,768 middleware 19664 27860 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.098s
+INFO 2026-07-12 15:22:42,772 middleware 19664 27860 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:42,840 middleware 19664 27860 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 15:22:42,953 middleware 19664 27860 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:22:42,954 middleware 19664 36904 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:22:42,954 middleware 19664 34460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:22:42,955 middleware 19664 37384 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:22:43,036 middleware 19664 36904 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.082s
+INFO 2026-07-12 15:22:43,045 middleware 19664 27860 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.092s
+INFO 2026-07-12 15:22:43,062 middleware 19664 34460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.108s
+INFO 2026-07-12 15:22:43,102 middleware 19664 37384 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.147s
+INFO 2026-07-12 15:22:43,243 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:43,299 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:22:46,898 middleware 19664 37384 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 15:22:47,565 middleware 19664 37384 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.667s
+INFO 2026-07-12 15:22:52,671 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:52,721 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:22:53,247 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:22:53,299 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:23:01,561 middleware 19664 37384 Incoming Request: POST /api/v1/chatbot/chat/ | User: AnonymousUser
+INFO 2026-07-12 15:23:02,182 middleware 19664 37384 Completed Request: POST /api/v1/chatbot/chat/ | Status: 200 | Duration: 0.621s
+INFO 2026-07-12 15:23:02,665 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:02,717 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:23:03,258 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:03,308 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:23:12,674 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:12,729 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:23:13,254 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:13,308 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:23:16,072 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:23:16,153 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 15:23:17,855 middleware 19664 37384 Incoming Request: POST /api/v1/reports/export/pdf/ | User: AnonymousUser
+INFO 2026-07-12 15:23:18,046 middleware 19664 37384 Completed Request: POST /api/v1/reports/export/pdf/ | Status: 200 | Duration: 0.191s
+INFO 2026-07-12 15:23:22,665 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:22,733 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 15:23:23,257 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:23,318 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.061s
+INFO 2026-07-12 15:23:28,524 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:23:28,616 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.091s
+INFO 2026-07-12 15:23:32,662 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:32,726 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.064s
+INFO 2026-07-12 15:23:33,255 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:33,315 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.060s
+INFO 2026-07-12 15:23:42,981 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:43,029 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:23:43,262 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:43,307 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:23:52,986 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:53,035 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:23:53,249 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:23:53,295 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:23:59,233 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:23:59,329 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.098s
+INFO 2026-07-12 15:24:02,983 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:03,038 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:24:03,245 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:03,305 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.060s
+INFO 2026-07-12 15:24:06,199 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:24:06,267 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 15:24:10,199 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:24:10,267 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 15:24:12,983 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:13,030 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:24:13,247 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:13,288 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.041s
+INFO 2026-07-12 15:24:18,648 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:24:18,750 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.103s
+INFO 2026-07-12 15:24:20,623 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:20,729 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.106s
+INFO 2026-07-12 15:24:20,733 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:20,814 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 15:24:20,902 middleware 19664 37384 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:24:20,985 middleware 19664 37384 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.083s
+INFO 2026-07-12 15:24:23,253 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:23,324 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.071s
+INFO 2026-07-12 15:24:30,631 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:30,698 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.066s
+INFO 2026-07-12 15:24:33,257 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:33,309 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:24:40,627 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:40,687 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.060s
+INFO 2026-07-12 15:24:43,261 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:43,336 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.075s
+INFO 2026-07-12 15:24:50,980 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:51,031 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:24:53,256 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:24:53,313 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:25:00,977 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:01,024 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:25:03,251 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:03,294 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:25:10,979 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:11,024 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:25:13,249 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:13,296 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:25:20,979 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:21,028 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:25:23,255 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:23,302 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:25:30,988 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:31,032 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:25:33,248 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:33,311 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 15:25:40,976 middleware 19664 37384 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:41,024 middleware 19664 37384 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:25:43,253 middleware 19664 17820 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:43,304 middleware 19664 17820 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:25:53,558 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:25:53,616 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.059s
+INFO 2026-07-12 15:26:03,251 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:03,298 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:26:03,398 middleware 19664 38612 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:26:03,465 middleware 19664 38612 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 15:26:06,286 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:06,333 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:26:13,253 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:13,298 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:26:23,247 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:23,295 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:26:33,246 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:33,292 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:26:42,026 middleware 19664 38680 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 15:26:42,027 middleware 19664 38712 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:42,115 middleware 19664 38712 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.088s
+INFO 2026-07-12 15:26:42,143 middleware 19664 38680 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.117s
+INFO 2026-07-12 15:26:43,253 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:43,312 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.059s
+INFO 2026-07-12 15:26:50,620 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:50,674 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:26:51,318 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:26:51,505 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.187s
+INFO 2026-07-12 15:26:53,260 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:26:53,316 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:27:00,978 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:01,031 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:27:03,251 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:03,297 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:27:10,994 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:11,045 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:27:13,252 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:13,295 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:27:20,987 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:21,053 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.066s
+INFO 2026-07-12 15:27:23,255 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:23,299 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:27:30,986 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:31,032 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:27:33,258 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:33,303 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:27:40,983 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:41,046 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.063s
+INFO 2026-07-12 15:27:43,259 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:43,336 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 15:27:50,979 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:51,137 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.158s
+INFO 2026-07-12 15:27:53,248 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:27:53,293 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:27:58,748 middleware 19664 34084 Incoming Request: POST /api/v1/reports/export/csv/ | User: AnonymousUser
+INFO 2026-07-12 15:27:58,866 middleware 19664 34084 Completed Request: POST /api/v1/reports/export/csv/ | Status: 200 | Duration: 0.118s
+INFO 2026-07-12 15:28:03,250 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:03,301 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:28:05,985 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:06,039 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:28:13,249 middleware 19664 38316 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:13,292 middleware 19664 38316 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:28:23,556 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:23,606 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:28:33,250 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:33,302 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:28:43,259 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:43,311 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.052s
+INFO 2026-07-12 15:28:53,259 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:28:53,309 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:29:03,248 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:03,328 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.080s
+INFO 2026-07-12 15:29:06,016 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:06,186 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.170s
+INFO 2026-07-12 15:29:13,254 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:13,335 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.082s
+INFO 2026-07-12 15:29:15,656 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:29:15,658 middleware 19664 38712 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:15,753 middleware 19664 38712 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.094s
+INFO 2026-07-12 15:29:15,840 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.184s
+INFO 2026-07-12 15:29:20,984 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:21,035 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:29:23,259 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:23,319 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.060s
+INFO 2026-07-12 15:29:30,979 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:31,094 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.116s
+INFO 2026-07-12 15:29:33,252 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:33,302 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:29:40,987 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:41,040 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:29:43,270 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:43,317 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:29:51,006 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:51,048 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.042s
+INFO 2026-07-12 15:29:53,252 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:29:53,411 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.159s
+INFO 2026-07-12 15:30:00,980 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:01,025 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:30:03,262 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:03,308 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:30:05,813 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:30:05,918 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.105s
+INFO 2026-07-12 15:30:10,999 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:11,144 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.145s
+INFO 2026-07-12 15:30:13,247 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:13,290 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:30:17,464 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:30:17,637 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.173s
+INFO 2026-07-12 15:30:23,263 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:23,309 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:30:25,777 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:30:25,938 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.159s
+INFO 2026-07-12 15:30:33,248 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:33,410 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.162s
+INFO 2026-07-12 15:30:43,251 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:43,301 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.050s
+INFO 2026-07-12 15:30:53,248 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:30:53,406 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.158s
+INFO 2026-07-12 15:31:03,244 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:03,289 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:31:05,987 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:06,040 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:31:13,247 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:13,293 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:31:23,258 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:23,302 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:31:33,245 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:33,293 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:31:43,245 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:43,291 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:31:53,258 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:31:53,305 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:32:03,250 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:03,296 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:32:05,985 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:06,044 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.059s
+INFO 2026-07-12 15:32:10,293 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:32:10,476 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.183s
+INFO 2026-07-12 15:32:13,242 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:13,289 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:32:23,250 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:23,290 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.041s
+INFO 2026-07-12 15:32:33,243 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:33,285 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.042s
+INFO 2026-07-12 15:32:43,260 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:43,309 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:32:43,471 middleware 19664 38588 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:32:43,540 middleware 19664 38588 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.069s
+INFO 2026-07-12 15:32:52,991 middleware 19664 27640 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:32:53,127 middleware 19664 27640 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.136s
+INFO 2026-07-12 15:32:53,254 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:32:53,300 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:33:02,220 middleware 19664 21456 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:33:02,288 middleware 19664 21456 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 15:33:03,246 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:03,290 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:33:05,997 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:06,048 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.051s
+INFO 2026-07-12 15:33:13,243 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:13,292 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:33:13,798 middleware 19664 34204 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:33:13,852 middleware 19664 34204 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:33:23,258 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:23,300 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:33:26,143 middleware 19664 5640 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:33:26,321 middleware 19664 5640 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.179s
+INFO 2026-07-12 15:33:33,249 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:33,403 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.154s
+INFO 2026-07-12 15:33:34,529 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:33:34,596 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 15:33:43,255 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:43,301 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:33:53,256 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:53,301 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:33:55,270 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:55,361 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.089s
+INFO 2026-07-12 15:33:55,368 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:55,484 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.117s
+INFO 2026-07-12 15:33:55,616 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:33:55,794 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.178s
+INFO 2026-07-12 15:33:56,554 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:56,633 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.079s
+INFO 2026-07-12 15:33:56,642 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:33:56,724 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.082s
+INFO 2026-07-12 15:33:56,810 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:33:56,888 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.078s
+INFO 2026-07-12 15:34:05,280 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:05,326 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:34:06,979 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:07,026 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:34:15,278 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:15,326 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:34:16,197 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:16,322 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.124s
+INFO 2026-07-12 15:34:16,334 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:16,557 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.223s
+INFO 2026-07-12 15:34:16,707 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:34:16,754 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:16,822 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.115s
+INFO 2026-07-12 15:34:16,839 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.086s
+INFO 2026-07-12 15:34:16,845 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:16,923 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.079s
+INFO 2026-07-12 15:34:17,992 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:34:18,062 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.070s
+INFO 2026-07-12 15:34:18,395 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:18,591 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.196s
+INFO 2026-07-12 15:34:18,596 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:18,804 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.208s
+INFO 2026-07-12 15:34:18,812 middleware 19664 28272 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 15:34:18,888 middleware 19664 28272 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 15:34:19,414 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:19,493 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.079s
+INFO 2026-07-12 15:34:19,497 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:19,553 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.056s
+INFO 2026-07-12 15:34:19,999 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:34:20,075 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 15:34:28,399 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:28,447 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:34:29,994 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:30,037 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:34:38,402 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:38,447 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:34:39,989 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:40,035 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.046s
+INFO 2026-07-12 15:34:48,404 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:48,450 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:34:49,977 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:50,021 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:34:58,399 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:34:58,452 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.053s
+INFO 2026-07-12 15:34:59,984 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:00,033 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:35:08,409 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:08,464 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:35:09,989 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:10,057 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 15:35:18,402 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:18,448 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:35:19,980 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:20,023 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.043s
+INFO 2026-07-12 15:35:26,450 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:35:26,583 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.133s
+INFO 2026-07-12 15:35:28,396 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:28,444 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.048s
+INFO 2026-07-12 15:35:29,356 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:29,446 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.090s
+INFO 2026-07-12 15:35:29,450 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:29,613 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.163s
+INFO 2026-07-12 15:35:29,628 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:35:29,802 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.175s
+INFO 2026-07-12 15:35:31,166 middleware 19664 38680 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 15:35:31,291 middleware 19664 38680 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.125s
+INFO 2026-07-12 15:35:37,215 middleware 19664 38680 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 15:35:37,299 middleware 19664 38680 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.085s
+INFO 2026-07-12 15:35:37,301 middleware 19664 38680 Incoming Request: GET /api/v1/dashboard/kpis/ | User: AnonymousUser
+INFO 2026-07-12 15:35:37,411 middleware 19664 38680 Completed Request: GET /api/v1/dashboard/kpis/ | Status: 200 | Duration: 0.109s
+INFO 2026-07-12 15:35:37,414 middleware 19664 38680 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 15:35:37,494 middleware 19664 38680 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 15:35:37,499 middleware 19664 38680 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 15:35:37,563 middleware 19664 38680 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.065s
+INFO 2026-07-12 15:35:38,395 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:38,450 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.055s
+INFO 2026-07-12 15:35:39,350 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:39,400 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.049s
+INFO 2026-07-12 15:35:48,400 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:48,445 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.045s
+INFO 2026-07-12 15:35:49,994 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:50,036 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.044s
+INFO 2026-07-12 15:35:58,401 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:35:58,455 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
+INFO 2026-07-12 15:35:59,975 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:36:00,022 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s

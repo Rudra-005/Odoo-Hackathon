@@ -67,6 +67,7 @@ def get_fleet_context() -> str:
         license__license_expiry__gte=today,
     ).count()
 
+    # Recent trips
     recent_trips = Trip.objects.select_related('vehicle', 'driver').order_by('-created_at')[:5]
     recent_trips_text = "\n".join([
         f"  - {tr.trip_number}: {tr.source} → {tr.destination} | "
@@ -76,17 +77,51 @@ def get_fleet_context() -> str:
         for tr in recent_trips
     ]) or "  No recent trips."
 
+    # All vehicles list
+    all_vehicles = Vehicle.objects.filter(is_deleted=False).order_by('registration_number')[:30]
+    vehicles_text = "\n".join([
+        f"  - {veh.registration_number} | Name: {veh.vehicle_name} | Status: {veh.status} | Odometer: {veh.current_odometer} km"
+        for veh in all_vehicles
+    ]) or "  No vehicles found."
+
+    # All drivers list
+    all_drivers = Driver.objects.filter(is_deleted=False).select_related('assigned_vehicle').order_by('first_name')[:30]
+    drivers_text = "\n".join([
+        f"  - {drv.driver_code}: {drv.first_name} {drv.last_name} | Status: {drv.status} | "
+        f"Safety Score: {drv.safety_score} | "
+        f"Vehicle: {drv.assigned_vehicle.registration_number if drv.assigned_vehicle else 'Not Assigned'}"
+        for drv in all_drivers
+    ]) or "  No drivers found."
+
+    # Active maintenance details
+    maint_records = MaintenanceLog.objects.filter(
+        is_deleted=False, status__in=['SCHEDULED', 'ACTIVE']
+    ).select_related('vehicle')[:10]
+    maint_text = "\n".join([
+        f"  - {m.vehicle.registration_number if m.vehicle else 'N/A'} | "
+        f"Type: {m.maintenance_type} | Status: {m.status} | "
+        f"Date: {m.start_date}"
+        for m in maint_records
+
+    ]) or "  No active maintenance."
+
     return f"""
 === LIVE FLEET DATA (as of {timezone.now().strftime('%Y-%m-%d %H:%M UTC')}) ===
 
-VEHICLES:
+VEHICLES SUMMARY:
   Total: {v['total']} | Available: {v['available']} | On Trip: {v['on_trip']} | In Maintenance: {v['maintenance']} | Retired: {v['retired']}
 
-DRIVERS:
+ALL VEHICLES:
+{vehicles_text}
+
+DRIVERS SUMMARY:
   Total: {d['total']} | Available: {d['available']} | On Trip: {d['on_trip']} | Suspended: {d['suspended']}
   Licenses expiring in 30 days: {expiring_licenses}
 
-TRIPS:
+ALL DRIVERS:
+{drivers_text}
+
+TRIPS SUMMARY:
   Total: {t['total']} | Draft: {t['draft']} | Dispatched: {t['dispatched']} | In Progress: {t['in_progress']} | Completed: {t['completed']} | Cancelled: {t['cancelled']}
   Trips scheduled today: {today_trips}
 
@@ -95,6 +130,7 @@ FINANCIALS (this month):
 
 MAINTENANCE:
   Active/Scheduled jobs: {active_maintenance}
+{maint_text}
 
 FUEL:
   Average fleet efficiency: {float(avg_efficiency):.2f} km/L
@@ -102,3 +138,4 @@ FUEL:
 RECENT TRIPS:
 {recent_trips_text}
 """
+

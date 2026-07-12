@@ -9,6 +9,12 @@ import { DataTable } from '../../components/ui/DataTable';
 import toast from 'react-hot-toast';
 import { ColumnDef } from '@tanstack/react-table';
 
+const formatCurrency = (val: any) => {
+  const num = Number(val);
+  if (isNaN(num)) return '$0.00';
+  return `$${num.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+};
+
 export default function Reports() {
   const [activeTab, setActiveTab] = useState<'fleet' | 'financial' | 'trips'>('financial');
   const [dateRange, setDateRange] = useState({ start: '', end: '' });
@@ -123,9 +129,9 @@ export default function Reports() {
       ) : activeTab === 'financial' && data?.summary ? (
         <div className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <KPICard title="Total Revenue" value={`$${data.summary.total_revenue}`} icon={FileBarChart} />
-            <KPICard title="Total Expenses" value={`$${data.summary.total_expense}`} icon={FileBarChart} />
-            <KPICard title="Net Profit" value={`$${data.summary.net_profit}`} icon={FileBarChart} />
+            <KPICard title="Total Revenue" value={formatCurrency(data.summary.total_revenue)} icon={FileBarChart} />
+            <KPICard title="Total Expenses" value={formatCurrency(data.summary.total_expense)} icon={FileBarChart} />
+            <KPICard title="Net Profit" value={formatCurrency(data.summary.net_profit)} icon={FileBarChart} />
             <KPICard title="Fleet ROI" value={`${data.summary.roi.toFixed(2)}%`} icon={FileBarChart} />
           </div>
           <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
@@ -152,7 +158,7 @@ export default function Reports() {
             <KPICard title="Total Trips" value={data.summary.total_trips} icon={FileBarChart} />
             <KPICard title="Completed Trips" value={data.summary.completed_trips} icon={FileBarChart} />
             <KPICard title="Total Distance" value={`${data.summary.total_distance.toFixed(0)} km`} icon={FileBarChart} />
-            <KPICard title="Total Revenue" value={`$${data.summary.total_revenue}`} icon={FileBarChart} />
+            <KPICard title="Total Revenue" value={formatCurrency(data.summary.total_revenue)} icon={FileBarChart} />
           </div>
           <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
             <div className="p-4 border-b border-slate-200 dark:border-slate-700 font-semibold">Trips Breakdown</div>

@@ -10,6 +10,7 @@ import { ColumnDef } from '@tanstack/react-table';
 import toast from 'react-hot-toast';
 import { useDebounce } from '../../hooks/useDebounce';
 import { TripModal } from './components/TripModal';
+import { exportToCsv } from '../../utils/exportCsv';
 
 export default function Trips() {
   const queryClient = useQueryClient();
@@ -32,6 +33,26 @@ export default function Trips() {
       queryClient.invalidateQueries({ queryKey: ['trips'] });
     },
   });
+
+  const handleExport = async () => {
+    const toastId = toast.loading('Preparing export...');
+    try {
+      const all = await TripService.getTrips({ page: 1, search: '', page_size: 10000 });
+      const rows = (all?.results || []).map((t: Trip) => ({
+        trip_number: t.trip_number,
+        vehicle: t.vehicle_reg || '',
+        driver: t.driver_name || '',
+        source: t.source || '',
+        destination: t.destination || '',
+        status: t.status,
+        revenue: t.revenue || 0,
+      }));
+      exportToCsv(rows, 'Trips_Report');
+      toast.success('Export downloaded!', { id: toastId });
+    } catch {
+      toast.error('Export failed', { id: toastId });
+    }
+  };
 
   const columns: ColumnDef<Trip>[] = [
     {
@@ -111,7 +132,7 @@ export default function Trips() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Manage dispatch operations and lifecycles</p>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="secondary">
+          <Button variant="secondary" onClick={handleExport}>
             <Download className="w-4 h-4 mr-2" />
             Export
           </Button>

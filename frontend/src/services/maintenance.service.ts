@@ -7,6 +7,7 @@ interface FetchMaintenanceParams {
   status?: string;
   vehicle?: string;
   priority?: string;
+  page_size?: number;
 }
 
 interface PaginatedResponse<T> {

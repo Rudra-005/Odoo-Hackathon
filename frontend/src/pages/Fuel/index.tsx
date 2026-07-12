@@ -10,6 +10,7 @@ import { ColumnDef } from '@tanstack/react-table';
 import { useDebounce } from '../../hooks/useDebounce';
 import { FuelModal } from './components/FuelModal';
 import toast from 'react-hot-toast';
+import { exportToCsv } from '../../utils/exportCsv';
 
 export default function FuelManagement() {
   const queryClient = useQueryClient();
@@ -31,6 +32,26 @@ export default function FuelManagement() {
       queryClient.invalidateQueries({ queryKey: ['fuel'] });
     },
   });
+
+  const handleExport = async () => {
+    const toastId = toast.loading('Preparing export...');
+    try {
+      const all = await FuelService.getLogs({ page: 1, search: '', page_size: 10000 });
+      const rows = (all?.results || []).map((f: FuelLog) => ({
+        id: f.fuel_log_number,
+        vehicle: f.vehicle_registration || '',
+        date: f.fuel_date,
+        fuel_type: f.fuel_type,
+        quantity_liters: f.quantity,
+        total_cost: f.total_cost,
+        efficiency_km_per_l: f.fuel_efficiency,
+      }));
+      exportToCsv(rows, 'Fuel_Report');
+      toast.success('Export downloaded!', { id: toastId });
+    } catch {
+      toast.error('Export failed', { id: toastId });
+    }
+  };
 
   const columns: ColumnDef<FuelLog>[] = [
     {
@@ -105,7 +126,7 @@ export default function FuelManagement() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Track fuel consumption, costs, and efficiency</p>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="secondary">
+          <Button variant="secondary" onClick={handleExport}>
             <Download className="w-4 h-4 mr-2" />
             Export
           </Button>

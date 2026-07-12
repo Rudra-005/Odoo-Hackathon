@@ -10,6 +10,7 @@ import { ColumnDef } from '@tanstack/react-table';
 import toast from 'react-hot-toast';
 import { useDebounce } from '../../hooks/useDebounce';
 import { MaintenanceModal } from './components/MaintenanceModal';
+import { exportToCsv } from '../../utils/exportCsv';
 
 export default function Maintenance() {
   const queryClient = useQueryClient();
@@ -32,6 +33,26 @@ export default function Maintenance() {
       queryClient.invalidateQueries({ queryKey: ['maintenance'] });
     },
   });
+
+  const handleExport = async () => {
+    const toastId = toast.loading('Preparing export...');
+    try {
+      const all = await MaintenanceService.getLogs({ page: 1, search: '', page_size: 10000 });
+      const rows = (all?.results || []).map((m: MaintenanceLog) => ({
+        id: m.maintenance_id,
+        vehicle: m.vehicle_registration || '',
+        type: m.maintenance_type_name || '',
+        vendor: m.vendor || m.workshop || '',
+        priority: m.priority,
+        estimated_cost: m.estimated_cost,
+        status: m.status,
+      }));
+      exportToCsv(rows, 'Maintenance_Report');
+      toast.success('Export downloaded!', { id: toastId });
+    } catch {
+      toast.error('Export failed', { id: toastId });
+    }
+  };
 
   const columns: ColumnDef<MaintenanceLog>[] = [
     {
@@ -128,7 +149,7 @@ export default function Maintenance() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Track vehicle repairs, costs, and shop schedules</p>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="secondary">
+          <Button variant="secondary" onClick={handleExport}>
             <Download className="w-4 h-4 mr-2" />
             Export
           </Button>

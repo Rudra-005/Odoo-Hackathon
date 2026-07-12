@@ -10,6 +10,7 @@ import { ColumnDef } from '@tanstack/react-table';
 import toast from 'react-hot-toast';
 import { useDebounce } from '../../hooks/useDebounce';
 import { VehicleModal } from './components/VehicleModal';
+import { exportToCsv } from '../../utils/exportCsv';
 
 export default function Vehicles() {
   const queryClient = useQueryClient();
@@ -31,6 +32,27 @@ export default function Vehicles() {
       queryClient.invalidateQueries({ queryKey: ['vehicles'] });
     },
   });
+
+  const handleExport = async () => {
+    const toastId = toast.loading('Preparing export...');
+    try {
+      const all = await VehicleService.getVehicles({ page: 1, search: '', page_size: 10000 });
+      const rows = (all?.results || []).map((v: Vehicle) => ({
+        registration_number: v.registration_number,
+        vehicle_name: v.vehicle_name,
+        type: v.vehicle_type_name || '',
+        region: v.region_name || '',
+        status: v.status,
+        current_odometer: v.current_odometer,
+        fuel_type: v.fuel_type || '',
+        year: v.year || '',
+      }));
+      exportToCsv(rows, 'Vehicles_Report');
+      toast.success('Export downloaded!', { id: toastId });
+    } catch {
+      toast.error('Export failed', { id: toastId });
+    }
+  };
 
   const columns: ColumnDef<Vehicle>[] = [
     {
@@ -99,7 +121,7 @@ export default function Vehicles() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Manage your entire fleet registry</p>
         </div>
         <div className="flex items-center gap-2">
-          <Button variant="secondary">
+          <Button variant="secondary" onClick={handleExport}>
             <Download className="w-4 h-4 mr-2" />
             Export
           </Button>

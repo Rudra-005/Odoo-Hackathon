@@ -8,6 +8,7 @@ interface FetchTripsParams {
   vehicle?: string;
   driver?: string;
   ordering?: string;
+  page_size?: number;
 }
 
 interface PaginatedResponse<T> {

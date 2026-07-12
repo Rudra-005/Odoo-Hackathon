@@ -7,6 +7,7 @@ interface FetchDriversParams {
   status?: string;
   license_category?: string;
   ordering?: string;
+  page_size?: number;
 }
 
 interface PaginatedResponse<T> {
