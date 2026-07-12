@@ -1384,3 +1384,7 @@ INFO 2026-07-12 15:35:58,401 middleware 19664 28272 Incoming Request: GET /api/v
 INFO 2026-07-12 15:35:58,455 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.054s
 INFO 2026-07-12 15:35:59,975 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
 INFO 2026-07-12 15:36:00,022 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.047s
+INFO 2026-07-12 15:36:08,405 middleware 19664 28272 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:36:08,444 middleware 19664 28272 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.039s
+INFO 2026-07-12 15:36:09,983 middleware 19664 38680 Incoming Request: GET /api/v1/notifications/ | User: AnonymousUser
+INFO 2026-07-12 15:36:10,139 middleware 19664 38680 Completed Request: GET /api/v1/notifications/ | Status: 200 | Duration: 0.156s
