@@ -268,3 +268,112 @@ INFO 2026-07-12 12:49:25,037 autoreload 20696 29748 C:\Users\rudra\OneDrive\Desk
 INFO 2026-07-12 12:49:26,152 autoreload 34216 30396 Watching for file changes with StatReloader
 INFO 2026-07-12 12:49:46,498 autoreload 34216 30396 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\serializers.py changed, reloading.
 INFO 2026-07-12 12:49:47,677 autoreload 27080 30316 Watching for file changes with StatReloader
+INFO 2026-07-12 08:10:18,402 autoreload 88036 8527371904 Watching for file changes with StatReloader
+INFO 2026-07-12 08:12:13,191 basehttp 88036 6129102848 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 08:12:13,193 basehttp 88036 6162755584 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 08:12:13,205 basehttp 88036 6179581952 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 08:12:13,262 basehttp 88036 6145929216 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 490
+INFO 2026-07-12 08:12:23,719 basehttp 88036 6145929216 "OPTIONS /api/v1/chatbot/chat/ HTTP/1.1" 200 0
+ERROR 2026-07-12 08:12:24,173 basehttp 88036 6145929216 "POST /api/v1/chatbot/chat/ HTTP/1.1" 500 251
+INFO 2026-07-12 08:12:39,475 basehttp 88036 6145929216 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 08:12:39,478 basehttp 88036 6162755584 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 08:12:39,484 basehttp 88036 6129102848 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 08:12:39,514 basehttp 88036 6179581952 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 490
+INFO 2026-07-12 08:13:34,116 autoreload 90974 8527371904 Watching for file changes with StatReloader
+INFO 2026-07-12 08:13:54,625 basehttp 90974 6166114304 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:13:54,628 basehttp 90974 6199767040 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:13:54,639 basehttp 90974 6216593408 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:13:54,695 basehttp 90974 6182940672 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 599
+ERROR 2026-07-12 08:14:11,325 basehttp 90974 6182940672 "POST /api/v1/chatbot/chat/ HTTP/1.1" 500 251
+INFO 2026-07-12 08:14:19,629 basehttp 90974 6182940672 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:14:19,631 basehttp 90974 6199767040 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:14:19,641 basehttp 90974 6166114304 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:14:19,734 basehttp 90974 6216593408 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 599
+INFO 2026-07-12 08:18:19,627 basehttp 90974 6216593408 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:18:19,630 basehttp 90974 6199767040 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:18:19,637 basehttp 90974 6182940672 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:18:19,660 basehttp 90974 6166114304 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 599
+INFO 2026-07-12 08:18:19,720 autoreload 90974 8527371904 /Users/ayushvishnoi/Desktop/hack/backend/apps/chatbot/services.py changed, reloading.
+INFO 2026-07-12 08:18:22,841 autoreload 42903 8527371904 Watching for file changes with StatReloader
+ERROR 2026-07-12 08:18:26,522 basehttp 42903 6204534784 "POST /api/v1/chatbot/chat/ HTTP/1.1" 500 605
+ERROR 2026-07-12 08:18:46,674 basehttp 42903 6204534784 "POST /api/v1/chatbot/chat/ HTTP/1.1" 500 605
+INFO 2026-07-12 08:19:45,839 basehttp 42903 6238760960 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:19:45,846 basehttp 42903 6255587328 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:19:45,847 basehttp 42903 6204534784 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:19:45,873 basehttp 42903 6221934592 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 599
+INFO 2026-07-12 08:19:48,960 basehttp 42903 6255587328 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:19:48,961 basehttp 42903 6221934592 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:19:48,968 basehttp 42903 6238760960 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:19:48,990 basehttp 42903 6204534784 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 599
+INFO 2026-07-12 08:20:30,747 autoreload 99038 8527371904 Watching for file changes with StatReloader
+INFO 2026-07-12 08:21:08,289 autoreload 46953 8527371904 Watching for file changes with StatReloader
+INFO 2026-07-12 08:21:23,054 basehttp 46953 12935360512 - Broken pipe from ('127.0.0.1', 55678)
+INFO 2026-07-12 08:21:23,063 basehttp 46953 12901707776 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:21:23,065 basehttp 46953 12901707776 - Broken pipe from ('127.0.0.1', 55675)
+INFO 2026-07-12 08:21:23,072 basehttp 46953 12952186880 - Broken pipe from ('127.0.0.1', 55679)
+INFO 2026-07-12 08:21:23,105 basehttp 46953 12918534144 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:21:23,106 basehttp 46953 12918534144 - Broken pipe from ('127.0.0.1', 55676)
+INFO 2026-07-12 08:21:28,390 basehttp 46953 12935360512 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:21:28,397 basehttp 46953 12952186880 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:21:28,397 basehttp 46953 12901707776 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:21:28,441 basehttp 46953 12918534144 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+ERROR 2026-07-12 08:21:33,679 basehttp 46953 12918534144 "POST /api/v1/chatbot/chat/ HTTP/1.1" 500 605
+INFO 2026-07-12 08:22:14,392 autoreload 46953 8527371904 /Users/ayushvishnoi/Desktop/hack/backend/apps/chatbot/services.py changed, reloading.
+INFO 2026-07-12 08:22:15,560 autoreload 21687 8527371904 Watching for file changes with StatReloader
+INFO 2026-07-12 08:22:25,095 basehttp 21687 6228013056 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:22:25,096 basehttp 21687 6194360320 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:22:25,100 basehttp 21687 6244839424 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:22:25,151 basehttp 21687 6211186688 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:25:28,388 autoreload 52936 8527371904 Watching for file changes with StatReloader
+INFO 2026-07-12 08:25:46,276 basehttp 52936 6192443392 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:25:46,279 basehttp 52936 6192443392 - Broken pipe from ('127.0.0.1', 55807)
+INFO 2026-07-12 08:25:46,282 basehttp 52936 6242922496 - Broken pipe from ('127.0.0.1', 55813)
+INFO 2026-07-12 08:25:46,285 basehttp 52936 6226096128 - Broken pipe from ('127.0.0.1', 55812)
+INFO 2026-07-12 08:25:46,442 basehttp 52936 6209269760 - Broken pipe from ('127.0.0.1', 55810)
+INFO 2026-07-12 08:25:47,590 basehttp 52936 6226096128 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:25:47,598 basehttp 52936 6192443392 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:25:47,610 basehttp 52936 6242922496 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:25:47,632 basehttp 52936 6209269760 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:25:53,622 basehttp 52936 6209269760 "POST /api/v1/chatbot/chat/ HTTP/1.1" 200 81
+INFO 2026-07-12 08:26:02,509 basehttp 52936 6209269760 "POST /api/v1/chatbot/chat/ HTTP/1.1" 200 447
+INFO 2026-07-12 08:26:33,073 basehttp 52936 6209269760 "POST /api/v1/chatbot/chat/ HTTP/1.1" 200 96
+INFO 2026-07-12 08:27:50,344 basehttp 52936 6209269760 "POST /api/v1/chatbot/chat/ HTTP/1.1" 200 182
+INFO 2026-07-12 08:28:28,631 basehttp 52936 6209269760 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:28:28,633 basehttp 52936 6192443392 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:28:28,640 basehttp 52936 6226096128 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:28:28,708 basehttp 52936 6242922496 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:28:30,557 basehttp 52936 6242922496 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 6941
+INFO 2026-07-12 08:28:33,538 basehttp 52936 6242922496 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8714
+INFO 2026-07-12 08:28:35,505 basehttp 52936 6242922496 "GET /api/v1/trips/?page=1&search= HTTP/1.1" 200 8399
+INFO 2026-07-12 08:28:37,304 basehttp 52936 6242922496 "GET /api/v1/maintenance/?page=1&search= HTTP/1.1" 200 23231
+INFO 2026-07-12 08:28:39,199 basehttp 52936 6242922496 "GET /api/v1/fuel/?page=1&search= HTTP/1.1" 200 16294
+INFO 2026-07-12 08:28:40,655 basehttp 52936 6242922496 "GET /api/v1/expenses/?page=1&search= HTTP/1.1" 200 17830
+INFO 2026-07-12 08:28:42,841 basehttp 52936 6242922496 "GET /api/v1/reports/financial/?start_date=&end_date= HTTP/1.1" 200 19698
+INFO 2026-07-12 08:28:45,542 basehttp 52936 6192443392 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:28:45,549 basehttp 52936 6209269760 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:28:45,550 basehttp 52936 6242922496 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:28:45,583 basehttp 52936 6226096128 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:30:57,826 basehttp 52936 6209269760 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:30:57,826 basehttp 52936 6226096128 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:30:57,833 basehttp 52936 6192443392 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:30:57,856 basehttp 52936 6242922496 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:31:07,245 basehttp 52936 6226096128 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:31:07,249 basehttp 52936 6209269760 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:31:07,250 basehttp 52936 6242922496 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:31:07,273 basehttp 52936 6192443392 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:31:10,151 basehttp 52936 6209269760 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:31:10,157 basehttp 52936 6226096128 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:31:10,159 basehttp 52936 6192443392 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:31:10,180 basehttp 52936 6242922496 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:31:25,700 basehttp 52936 6226096128 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:31:25,706 basehttp 52936 6209269760 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:31:25,708 basehttp 52936 6242922496 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:31:25,726 basehttp 52936 6192443392 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:32:41,311 basehttp 52936 6209269760 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:32:41,319 basehttp 52936 6226096128 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:32:41,324 basehttp 52936 6192443392 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:32:41,367 basehttp 52936 6242922496 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600
+INFO 2026-07-12 08:32:43,811 basehttp 52936 6242922496 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 08:32:43,811 basehttp 52936 6209269760 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1612
+INFO 2026-07-12 08:32:43,817 basehttp 52936 6226096128 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 484
+INFO 2026-07-12 08:32:43,870 basehttp 52936 6192443392 "GET /api/v1/dashboard/kpis/ HTTP/1.1" 200 600

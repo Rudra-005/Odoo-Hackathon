@@ -17,6 +17,7 @@ api_v1_patterns = [
     path('reports/', include('apps.reports.urls')),
     path('analytics/', include('apps.analytics.urls')),
     path('notifications/', include('apps.notifications.urls')),
+    path('chatbot/', include('apps.chatbot.urls')),
 ]
 
 urlpatterns = [

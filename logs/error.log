@@ -1618,3 +1618,8 @@ ERROR 2026-07-12 12:44:31,848 log 9988 16072 Internal Server Error: /api/v1/repo
 ERROR 2026-07-12 12:46:29,370 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
 ERROR 2026-07-12 12:46:30,444 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
 ERROR 2026-07-12 12:46:53,389 log 20696 28708 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 08:12:24,172 log 88036 6145929216 Internal Server Error: /api/v1/chatbot/chat/
+ERROR 2026-07-12 08:14:11,324 log 90974 6182940672 Internal Server Error: /api/v1/chatbot/chat/
+ERROR 2026-07-12 08:18:26,522 log 42903 6204534784 Internal Server Error: /api/v1/chatbot/chat/
+ERROR 2026-07-12 08:18:46,673 log 42903 6204534784 Internal Server Error: /api/v1/chatbot/chat/
+ERROR 2026-07-12 08:21:33,678 log 46953 12918534144 Internal Server Error: /api/v1/chatbot/chat/

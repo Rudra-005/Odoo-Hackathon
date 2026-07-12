@@ -11,6 +11,7 @@ env = environ.Env()
 environ.Env.read_env(BASE_DIR.parent / '.env')
 
 SECRET_KEY = env('SECRET_KEY', default='unsafe-secret-key')
+GEMINI_API_KEY = env('GEMINI_API_KEY', default='')
 
 INSTALLED_APPS = [
     # Django Core Apps
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'apps.reports',
     # 'apps.analytics',
     'apps.notifications',
+    'apps.chatbot',
 ]
 
 MIDDLEWARE = [

@@ -4,6 +4,7 @@ import { useSidebar } from '../hooks/useSidebar';
 import { cn } from '../utils/cn';
 import { Sidebar } from '../components/Sidebar/Sidebar';
 import { Navbar } from '../components/Navbar/Navbar';
+import ChatWidget from '../components/Chatbot/ChatWidget';
 
 export const DashboardLayout = () => {
 
@@ -19,6 +20,7 @@ export const DashboardLayout = () => {
           <Outlet />
         </main>
       </div>
+      <ChatWidget />
     </div>
   );
 };
