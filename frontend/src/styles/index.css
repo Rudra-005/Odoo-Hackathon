@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "sans-serif";
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+  
+  --color-dark-bg: #0f172a;
+  --color-dark-surface: #1e293b;
+  --color-dark-border: #334155;
+  
+  --color-light-bg: #f8fafc;
+  --color-light-surface: #ffffff;
+  --color-light-border: #e2e8f0;
+
+  --spacing-4_5: 1.125rem;
+  --spacing-5_5: 1.375rem;
+
+  --radius-xl: 0.75rem;
+
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --shadow-soft-dark: 0 4px 20px -2px rgba(0, 0, 0, 0.2);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;@layer base {
+  body {
+    @apply bg-light-bg text-slate-800 font-sans antialiased transition-colors duration-200;
+  }
+  
+  .dark body {
+    @apply bg-dark-bg text-slate-200;
+  }
+}
+
+@layer components {
+  /* Reusable card styles */
+  .card {
+    @apply bg-light-surface border border-light-border rounded-xl shadow-soft transition-all duration-200;
+  }
+  .dark .card {
+    @apply bg-dark-surface border-dark-border shadow-soft-dark;
+  }
+
+  /* Form labels */
+  .form-label {
+    @apply block text-sm font-medium text-slate-700 mb-1.5;
+  }
+  .dark .form-label {
+    @apply text-slate-300;
+  }
+
+  /* Input fields */
+  .form-input {
+    @apply w-full rounded-xl border border-light-border bg-white px-4 py-2.5 text-sm transition-colors focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500;
+  }
+  .dark .form-input {
+    @apply bg-dark-bg border-dark-border text-white placeholder-slate-400 focus:border-primary-400 focus:ring-primary-400;
+  }
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-slate-600;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}

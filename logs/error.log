@@ -1,0 +1,1620 @@
+ERROR 2026-07-12 11:05:08,911 log 28164 30328 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:08,912 log 28164 29428 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:08,912 log 28164 34212 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:10,018 log 28164 34212 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:10,021 log 28164 30328 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:10,045 log 28164 29428 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:12,123 log 28164 29428 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:12,149 log 28164 30328 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:12,176 log 28164 34212 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:16,261 log 28164 30328 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:16,262 log 28164 29428 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:05:16,274 log 28164 34212 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:32,683 log 29144 23604 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:32,683 log 29144 25024 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:32,683 log 29144 20104 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:33,772 log 29144 20104 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:33,781 log 29144 23604 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:33,806 log 29144 25024 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:35,878 log 29144 23604 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:35,902 log 29144 25024 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:35,927 log 29144 20104 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:40,005 log 29144 20104 Internal Server Error: /api/v1/dashboard/charts/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:40,033 log 29144 23604 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:07:40,055 log 29144 25024 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:12:08,581 log 27860 18332 Internal Server Error: /api/v1/dashboard/summary/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:12:49,960 log 27860 28748 Internal Server Error: /api/v1/dashboard/recent/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 421, in initial
+    self.check_permissions(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 339, in check_permissions
+    self.permission_denied(
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 180, in permission_denied
+    raise exceptions.NotAuthenticated()
+rest_framework.exceptions.NotAuthenticated: Authentication credentials were not provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+AttributeError: module 'apps.common.exceptions' has no attribute 'custom_exception_handler'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 182, in import_from_string
+    return import_string(val)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    exception_handler = self.get_exception_handler()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 304, in get_exception_handler
+    return self.settings.EXCEPTION_HANDLER
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 230, in __getattr__
+    val = perform_import(val, attr)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 171, in perform_import
+    return import_from_string(val, setting_name)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\settings.py", line 185, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'apps.common.exceptions.custom_exception_handler' for API setting 'EXCEPTION_HANDLER'. ImportError: Module "apps.common.exceptions" does not define a "custom_exception_handler" attribute/class.
+ERROR 2026-07-12 11:30:00,409 log 33508 10476 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:30:01,482 log 33508 2460 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:30:03,556 log 33508 2460 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:30:07,634 log 33508 2460 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:31:24,976 log 33508 22952 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:31:26,051 log 33508 2460 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:31:28,127 log 33508 2460 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:31:32,194 log 33508 2460 Internal Server Error: /api/v1/dashboard/recent/
+ERROR 2026-07-12 11:32:37,850 log 7840 31232 Internal Server Error: /api/v1/trips/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 727, in to_representation
+    return [
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 728, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'region_name' was declared on serializer TripListSerializer, but has not been included in the 'fields' option.
+ERROR 2026-07-12 11:32:39,247 log 7840 31232 Internal Server Error: /api/v1/trips/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 727, in to_representation
+    return [
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 728, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'region_name' was declared on serializer TripListSerializer, but has not been included in the 'fields' option.
+ERROR 2026-07-12 11:32:41,991 log 7840 31232 Internal Server Error: /api/v1/trips/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 727, in to_representation
+    return [
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 728, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'region_name' was declared on serializer TripListSerializer, but has not been included in the 'fields' option.
+ERROR 2026-07-12 11:35:52,314 log 31784 32644 Internal Server Error: /api/v1/trips/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 727, in to_representation
+    return [
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 728, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 537, in to_representation
+    for field in fields:
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 398, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 386, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1101, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\serializers.py", line 1204, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'region_name' was declared on serializer TripListSerializer, but has not been included in the 'fields' option.
+ERROR 2026-07-12 12:18:49,787 log 13952 9840 Internal Server Error: /api/v1/drivers/
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\views.py", line 28, in create
+    driver = create_driver(user=request.user, data=serializer.validated_data)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\services.py", line 26, in create_driver
+    driver = Driver(created_by=user, updated_by=user, **data)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\db\models\base.py", line 545, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 291, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.auth.models.AnonymousUser object at 0x000001EF9DEF9C90>": "Driver.created_by" must be a "User" instance.
+ERROR 2026-07-12 12:38:21,551 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:38:22,612 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:38:24,672 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:38:28,743 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:38:47,791 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:38:48,962 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:40:34,350 log 5812 34220 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:42:05,526 log 16348 2268 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:42:17,709 log 16348 2268 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:44:14,778 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:44:24,541 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:44:25,602 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:44:27,778 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:44:31,848 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:46:29,370 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:46:30,444 log 9988 16072 Internal Server Error: /api/v1/reports/trips/
+ERROR 2026-07-12 12:46:53,389 log 20696 28708 Internal Server Error: /api/v1/reports/trips/

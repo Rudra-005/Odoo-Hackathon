@@ -1,0 +1,270 @@
+INFO 2026-07-12 11:00:20,963 autoreload 28164 3004 Watching for file changes with StatReloader
+ERROR 2026-07-12 11:05:08,916 basehttp 28164 30328 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:08,918 basehttp 28164 29428 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:08,921 basehttp 28164 34212 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:05:10,048 basehttp 28164 34212 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:10,050 basehttp 28164 30328 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:10,052 basehttp 28164 29428 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:05:12,178 basehttp 28164 29428 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:12,180 basehttp 28164 30328 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:12,181 basehttp 28164 34212 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:05:16,276 basehttp 28164 30328 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:05:16,278 basehttp 28164 29428 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:05:16,281 basehttp 28164 34212 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+INFO 2026-07-12 11:07:03,941 autoreload 28164 3004 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\dashboard\selectors.py changed, reloading.
+INFO 2026-07-12 11:07:04,728 autoreload 15924 23536 Watching for file changes with StatReloader
+INFO 2026-07-12 11:07:10,968 autoreload 15924 23536 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\reports\selectors.py changed, reloading.
+INFO 2026-07-12 11:07:11,693 autoreload 29144 32864 Watching for file changes with StatReloader
+ERROR 2026-07-12 11:07:32,686 basehttp 29144 23604 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:32,687 basehttp 29144 25024 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:07:32,689 basehttp 29144 20104 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:33,808 basehttp 29144 20104 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:33,811 basehttp 29144 23604 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:33,816 basehttp 29144 25024 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:07:35,928 basehttp 29144 23604 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:35,931 basehttp 29144 25024 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:35,933 basehttp 29144 20104 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:07:40,058 basehttp 29144 20104 "GET /api/v1/dashboard/charts/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:07:40,061 basehttp 29144 23604 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 146389
+ERROR 2026-07-12 11:07:40,064 basehttp 29144 25024 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 146368
+ERROR 2026-07-12 11:08:43,360 log 19280 34316 Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\http\request.py", line 203, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+ERROR 2026-07-12 11:08:55,634 log 4520 32440 Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\http\request.py", line 203, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+INFO 2026-07-12 11:09:50,703 autoreload 29144 32864 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\dashboard\views.py changed, reloading.
+INFO 2026-07-12 11:09:51,466 autoreload 27860 15252 Watching for file changes with StatReloader
+ERROR 2026-07-12 11:12:08,585 basehttp 27860 18332 "GET /api/v1/dashboard/summary/ HTTP/1.1" 500 144623
+ERROR 2026-07-12 11:12:49,962 basehttp 27860 28748 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 144602
+INFO 2026-07-12 11:13:45,973 autoreload 27860 15252 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\config\settings\base.py changed, reloading.
+INFO 2026-07-12 11:13:46,714 autoreload 4188 33832 Watching for file changes with StatReloader
+WARNING 2026-07-12 11:13:57,438 basehttp 4188 33660 "GET /api/v1/dashboard/summary/ HTTP/1.1" 403 150
+INFO 2026-07-12 11:14:26,928 autoreload 4188 33832 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\dashboard\views.py changed, reloading.
+INFO 2026-07-12 11:14:27,634 autoreload 30760 21380 Watching for file changes with StatReloader
+INFO 2026-07-12 11:14:34,804 autoreload 30760 21380 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\reports\views.py changed, reloading.
+INFO 2026-07-12 11:14:35,517 autoreload 30424 6592 Watching for file changes with StatReloader
+INFO 2026-07-12 11:14:51,758 basehttp 30424 23808 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:15:20,747 basehttp 30424 19332 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 11:15:20,750 basehttp 30424 18572 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:15:20,767 basehttp 30424 21816 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 11:20:34,278 basehttp 30424 28028 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 11:20:34,286 basehttp 30424 30760 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:20:34,296 basehttp 30424 25504 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 11:20:44,147 basehttp 30424 30760 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 11:20:44,153 basehttp 30424 25504 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:20:44,164 basehttp 30424 28028 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 11:21:03,570 basehttp 30424 28028 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 141
+INFO 2026-07-12 11:21:03,758 basehttp 30424 28028 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 141
+INFO 2026-07-12 11:21:05,431 basehttp 30424 28028 "GET /api/v1/trips/?page=1&search= HTTP/1.1" 200 141
+INFO 2026-07-12 11:21:07,588 basehttp 30424 28028 "GET /api/v1/maintenance/?page=1&search= HTTP/1.1" 200 141
+INFO 2026-07-12 11:21:08,999 basehttp 30424 28028 "GET /api/v1/fuel/?page=1&search= HTTP/1.1" 200 141
+INFO 2026-07-12 11:21:11,395 basehttp 30424 28028 "GET /api/v1/expenses/?page=1&search= HTTP/1.1" 200 141
+INFO 2026-07-12 11:21:16,651 basehttp 30424 28028 "GET /api/v1/reports/financial/?start_date=&end_date= HTTP/1.1" 200 159
+INFO 2026-07-12 11:21:19,083 basehttp 30424 25504 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 11:21:19,093 basehttp 30424 28028 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:21:19,196 basehttp 30424 30760 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 11:24:05,051 basehttp 30424 28028 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 11:24:05,060 basehttp 30424 30760 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:24:05,069 basehttp 30424 25504 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 11:25:19,152 basehttp 30424 30760 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 65
+INFO 2026-07-12 11:25:19,152 basehttp 30424 25504 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 174
+INFO 2026-07-12 11:25:19,166 basehttp 30424 28028 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 63
+INFO 2026-07-12 11:29:39,550 autoreload 30424 6592 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\common\models.py changed, reloading.
+INFO 2026-07-12 11:29:40,489 autoreload 33508 28944 Watching for file changes with StatReloader
+INFO 2026-07-12 11:30:00,406 basehttp 33508 22952 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+ERROR 2026-07-12 11:30:00,410 basehttp 33508 10476 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+INFO 2026-07-12 11:30:00,418 basehttp 33508 2460 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 485
+ERROR 2026-07-12 11:30:01,483 basehttp 33508 2460 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+ERROR 2026-07-12 11:30:03,557 basehttp 33508 2460 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+ERROR 2026-07-12 11:30:07,635 basehttp 33508 2460 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+ERROR 2026-07-12 11:30:25,599 log 19668 19332 Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\venv\lib\site-packages\django\http\request.py", line 203, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'testserver'. You may need to add 'testserver' to ALLOWED_HOSTS.
+INFO 2026-07-12 11:31:24,974 basehttp 33508 10476 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 485
+ERROR 2026-07-12 11:31:24,977 basehttp 33508 22952 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+INFO 2026-07-12 11:31:24,983 basehttp 33508 2460 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+ERROR 2026-07-12 11:31:26,051 basehttp 33508 2460 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+ERROR 2026-07-12 11:31:28,127 basehttp 33508 2460 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+ERROR 2026-07-12 11:31:32,195 basehttp 33508 2460 "GET /api/v1/dashboard/recent/ HTTP/1.1" 500 100
+INFO 2026-07-12 11:31:37,527 autoreload 33508 28944 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\dashboard\selectors.py changed, reloading.
+INFO 2026-07-12 11:31:38,356 autoreload 7840 7624 Watching for file changes with StatReloader
+INFO 2026-07-12 11:32:30,714 basehttp 7840 16672 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 11:32:30,720 basehttp 7840 29228 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 485
+INFO 2026-07-12 11:32:30,729 basehttp 7840 31232 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1620
+INFO 2026-07-12 11:32:33,798 basehttp 7840 31232 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 7005
+INFO 2026-07-12 11:32:36,103 basehttp 7840 31232 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8212
+ERROR 2026-07-12 11:32:37,854 basehttp 7840 31232 "GET /api/v1/trips/?page=1&search= HTTP/1.1" 500 167486
+ERROR 2026-07-12 11:32:39,248 basehttp 7840 31232 "GET /api/v1/trips/?page=1&search= HTTP/1.1" 500 167486
+ERROR 2026-07-12 11:32:42,116 basehttp 7840 31232 "GET /api/v1/trips/?page=1&search= HTTP/1.1" 500 167486
+INFO 2026-07-12 11:32:42,150 basehttp 7840 29228 "GET /api/v1/maintenance/?page=1&search= HTTP/1.1" 200 22247
+INFO 2026-07-12 11:32:44,753 basehttp 7840 29228 "GET /api/v1/fuel/?page=1&search= HTTP/1.1" 200 16369
+INFO 2026-07-12 11:32:46,369 basehttp 7840 29228 "GET /api/v1/expenses/?page=1&search= HTTP/1.1" 200 17863
+INFO 2026-07-12 11:32:50,639 basehttp 7840 29228 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 7005
+INFO 2026-07-12 11:34:17,289 basehttp 7840 29228 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 7005
+INFO 2026-07-12 11:35:59,564 basehttp 7840 29228 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 7005
+INFO 2026-07-12 11:36:13,225 autoreload 7840 7624 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\serializers.py changed, reloading.
+INFO 2026-07-12 11:36:13,975 autoreload 15332 17740 Watching for file changes with StatReloader
+INFO 2026-07-12 11:36:23,359 autoreload 15332 17740 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\common\pagination.py changed, reloading.
+INFO 2026-07-12 11:36:24,038 autoreload 33816 33768 Watching for file changes with StatReloader
+INFO 2026-07-12 11:37:04,002 basehttp 33816 33188 "GET /api/v1/vehicles/?page=1&search= HTTP/1.1" 200 6953
+INFO 2026-07-12 11:37:10,185 basehttp 33816 20440 "GET /api/v1/dashboard/charts/ HTTP/1.1" 200 485
+INFO 2026-07-12 11:37:10,193 basehttp 33816 33188 "GET /api/v1/dashboard/summary/ HTTP/1.1" 200 193
+INFO 2026-07-12 11:37:10,260 basehttp 33816 20440 "GET /api/v1/dashboard/recent/ HTTP/1.1" 200 1620
+INFO 2026-07-12 11:37:13,773 basehttp 33816 20440 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8160
+INFO 2026-07-12 11:55:43,648 basehttp 33816 7660 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8160
+INFO 2026-07-12 12:00:53,393 basehttp 33816 19668 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8160
+INFO 2026-07-12 12:01:18,154 basehttp 33816 19668 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8160
+INFO 2026-07-12 12:02:56,835 basehttp 33816 28332 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-07-12 12:02:56,906 basehttp 33816 28332 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2026-07-12 12:02:56,951 basehttp 33816 28332 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-07-12 12:02:56,957 basehttp 33816 28332 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-07-12 12:02:56,961 basehttp 33816 28332 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-07-12 12:02:56,964 basehttp 33816 28332 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-07-12 12:02:56,969 basehttp 33816 28332 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-07-12 12:02:56,972 basehttp 33816 28332 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-07-12 12:02:57,076 basehttp 33816 28332 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-07-12 12:02:57,213 basehttp 33816 28332 "GET /favicon.ico HTTP/1.1" 404 3217
+INFO 2026-07-12 12:04:52,923 basehttp 33816 28332 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-07-12 12:04:53,042 basehttp 33816 28332 "GET /admin/ HTTP/1.1" 200 19016
+INFO 2026-07-12 12:04:53,077 basehttp 33816 28332 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-07-12 12:04:53,152 basehttp 33816 28332 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-07-12 12:04:53,157 basehttp 33816 28332 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-07-12 12:05:14,061 basehttp 33816 19668 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8160
+INFO 2026-07-12 12:08:08,649 autoreload 33816 33768 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\models.py changed, reloading.
+INFO 2026-07-12 12:08:09,602 autoreload 24092 9736 Watching for file changes with StatReloader
+INFO 2026-07-12 12:08:20,107 autoreload 24092 9736 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\serializers.py changed, reloading.
+INFO 2026-07-12 12:08:20,826 autoreload 23980 11428 Watching for file changes with StatReloader
+INFO 2026-07-12 12:09:28,543 basehttp 23980 25968 "GET /api/v1/vehicles/ HTTP/1.1" 200 6926
+INFO 2026-07-12 12:12:55,307 basehttp 23980 25968 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8640
+INFO 2026-07-12 12:12:58,852 basehttp 23980 25968 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8640
+INFO 2026-07-12 12:13:01,467 basehttp 23980 25968 "GET /api/v1/vehicles/ HTTP/1.1" 200 6926
+WARNING 2026-07-12 12:13:19,235 basehttp 23980 25968 "POST /api/v1/drivers/ HTTP/1.1" 400 140
+WARNING 2026-07-12 12:13:20,644 basehttp 23980 25968 "POST /api/v1/drivers/ HTTP/1.1" 400 140
+WARNING 2026-07-12 12:13:27,779 basehttp 23980 25968 "POST /api/v1/drivers/ HTTP/1.1" 400 140
+WARNING 2026-07-12 12:15:23,833 basehttp 23980 29700 "POST /api/v1/drivers/ HTTP/1.1" 400 218
+INFO 2026-07-12 12:17:39,247 autoreload 23980 11428 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\serializers.py changed, reloading.
+INFO 2026-07-12 12:17:39,943 autoreload 21984 12636 Watching for file changes with StatReloader
+INFO 2026-07-12 12:17:45,616 autoreload 21984 12636 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\serializers.py changed, reloading.
+INFO 2026-07-12 12:17:46,248 autoreload 14084 7724 Watching for file changes with StatReloader
+INFO 2026-07-12 12:17:53,451 autoreload 14084 7724 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\services.py changed, reloading.
+INFO 2026-07-12 12:17:54,151 autoreload 13952 9036 Watching for file changes with StatReloader
+ERROR 2026-07-12 12:18:49,791 basehttp 13952 9840 "POST /api/v1/drivers/ HTTP/1.1" 500 126622
+INFO 2026-07-12 12:20:12,652 autoreload 13952 9036 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\services.py changed, reloading.
+INFO 2026-07-12 12:20:13,336 autoreload 30876 30552 Watching for file changes with StatReloader
+INFO 2026-07-12 12:20:40,546 autoreload 30876 30552 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\vehicles\services.py changed, reloading.
+INFO 2026-07-12 12:20:41,209 autoreload 5596 20616 Watching for file changes with StatReloader
+INFO 2026-07-12 12:21:12,640 autoreload 5596 20616 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\services.py changed, reloading.
+INFO 2026-07-12 12:21:13,336 autoreload 14640 13124 Watching for file changes with StatReloader
+INFO 2026-07-12 12:21:29,485 autoreload 29280 8136 Watching for file changes with StatReloader
+INFO 2026-07-12 12:21:44,835 basehttp 29280 32356 "POST /api/v1/drivers/ HTTP/1.1" 201 833
+INFO 2026-07-12 12:21:59,004 basehttp 29280 7788 "GET /api/v1/vehicles/ HTTP/1.1" 200 6926
+INFO 2026-07-12 12:22:01,113 basehttp 29280 33768 "POST /api/v1/drivers/ HTTP/1.1" 201 849
+INFO 2026-07-12 12:22:26,451 basehttp 29280 11136 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8640
+INFO 2026-07-12 12:22:28,433 basehttp 29280 11136 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8640
+INFO 2026-07-12 12:22:31,829 basehttp 29280 11136 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8640
+INFO 2026-07-12 12:22:34,453 basehttp 29280 11136 "GET /api/v1/vehicles/ HTTP/1.1" 200 6926
+INFO 2026-07-12 12:22:43,766 basehttp 29280 11136 "POST /api/v1/drivers/ HTTP/1.1" 201 861
+INFO 2026-07-12 12:22:43,841 basehttp 29280 11136 "GET /api/v1/drivers/?page=1&search= HTTP/1.1" 200 8643
+INFO 2026-07-12 12:23:16,844 basehttp 29280 11136 "GET /api/v1/trips/?page=1&search= HTTP/1.1" 200 7435
+INFO 2026-07-12 12:23:53,849 basehttp 29280 11136 "GET /api/v1/maintenance/?page=1&search= HTTP/1.1" 200 22195
+INFO 2026-07-12 12:24:00,201 basehttp 29280 11136 "GET /api/v1/fuel/?page=1&search= HTTP/1.1" 200 16317
+INFO 2026-07-12 12:24:06,097 basehttp 29280 11136 "GET /api/v1/expenses/?page=1&search= HTTP/1.1" 200 17811
+INFO 2026-07-12 12:24:12,739 basehttp 29280 11136 "GET /api/v1/reports/financial/?start_date=&end_date= HTTP/1.1" 200 19609
+INFO 2026-07-12 12:24:22,185 basehttp 29280 11136 "GET /api/v1/reports/financial/?start_date=2026-07-03&end_date= HTTP/1.1" 200 1433
+INFO 2026-07-12 12:24:25,486 basehttp 29280 11136 "GET /api/v1/reports/financial/?start_date=2026-07-03&end_date=2026-07-04 HTTP/1.1" 200 218
+INFO 2026-07-12 12:24:31,815 basehttp 29280 11136 "GET /api/v1/reports/financial/?start_date=2026-07-03&end_date=2026-07-07 HTTP/1.1" 200 695
+INFO 2026-07-12 12:29:28,310 autoreload 29280 8136 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\models.py changed, reloading.
+INFO 2026-07-12 12:29:29,091 autoreload 11888 2604 Watching for file changes with StatReloader
+INFO 2026-07-12 12:29:45,905 autoreload 11888 2604 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\maintenance\models.py changed, reloading.
+INFO 2026-07-12 12:29:46,972 autoreload 16864 17368 Watching for file changes with StatReloader
+INFO 2026-07-12 12:30:58,234 autoreload 16864 17368 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\validators.py changed, reloading.
+INFO 2026-07-12 12:30:58,962 autoreload 23320 33168 Watching for file changes with StatReloader
+INFO 2026-07-12 12:31:18,675 autoreload 23320 33168 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\serializers.py changed, reloading.
+INFO 2026-07-12 12:31:19,330 autoreload 34688 15048 Watching for file changes with StatReloader
+INFO 2026-07-12 12:31:53,741 autoreload 34688 15048 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\services.py changed, reloading.
+INFO 2026-07-12 12:31:54,438 autoreload 29748 7660 Watching for file changes with StatReloader
+INFO 2026-07-12 12:32:08,924 autoreload 29748 7660 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\selectors.py changed, reloading.
+INFO 2026-07-12 12:32:09,590 autoreload 2212 12084 Watching for file changes with StatReloader
+INFO 2026-07-12 12:32:39,918 autoreload 2212 12084 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\views.py changed, reloading.
+INFO 2026-07-12 12:32:40,772 autoreload 22988 32316 Watching for file changes with StatReloader
+INFO 2026-07-12 12:33:16,409 autoreload 22988 32316 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\common\workflow\orchestrators.py changed, reloading.
+INFO 2026-07-12 12:33:17,063 autoreload 5572 2604 Watching for file changes with StatReloader
+INFO 2026-07-12 12:33:21,074 autoreload 5572 2604 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\maintenance\serializers.py changed, reloading.
+INFO 2026-07-12 12:33:21,722 autoreload 31896 28004 Watching for file changes with StatReloader
+INFO 2026-07-12 12:33:25,707 autoreload 31896 28004 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\dashboard\selectors.py changed, reloading.
+INFO 2026-07-12 12:33:26,378 autoreload 23960 33524 Watching for file changes with StatReloader
+INFO 2026-07-12 12:33:37,710 autoreload 23960 33524 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\dashboard\selectors.py changed, reloading.
+INFO 2026-07-12 12:33:38,396 autoreload 4600 17828 Watching for file changes with StatReloader
+INFO 2026-07-12 12:33:49,860 autoreload 4600 17828 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\admin.py changed, reloading.
+INFO 2026-07-12 12:33:50,532 autoreload 29428 10804 Watching for file changes with StatReloader
+INFO 2026-07-12 12:33:56,610 autoreload 29428 10804 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\maintenance\admin.py changed, reloading.
+INFO 2026-07-12 12:33:57,285 autoreload 34104 27668 Watching for file changes with StatReloader
+INFO 2026-07-12 12:34:01,361 autoreload 34104 27668 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\vehicles\admin.py changed, reloading.
+INFO 2026-07-12 12:34:02,124 autoreload 5504 3704 Watching for file changes with StatReloader
+INFO 2026-07-12 12:34:10,421 autoreload 5504 3704 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\admin.py changed, reloading.
+INFO 2026-07-12 12:34:11,097 autoreload 2336 27468 Watching for file changes with StatReloader
+INFO 2026-07-12 12:34:20,331 autoreload 2336 27468 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\admin.py changed, reloading.
+INFO 2026-07-12 12:34:21,067 autoreload 20920 29196 Watching for file changes with StatReloader
+INFO 2026-07-12 12:36:09,678 autoreload 20920 29196 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\scheduling.py changed, reloading.
+INFO 2026-07-12 12:36:10,473 autoreload 29960 19060 Watching for file changes with StatReloader
+INFO 2026-07-12 12:36:13,467 autoreload 29960 19060 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\serializers.py changed, reloading.
+INFO 2026-07-12 12:36:14,145 autoreload 23684 30124 Watching for file changes with StatReloader
+INFO 2026-07-12 12:36:21,330 autoreload 23684 30124 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\views.py changed, reloading.
+INFO 2026-07-12 12:36:21,998 autoreload 5812 2268 Watching for file changes with StatReloader
+INFO 2026-07-12 12:38:07,988 basehttp 5812 34220 "GET /api/v1/reports/financial/?start_date=&end_date= HTTP/1.1" 200 19609
+INFO 2026-07-12 12:38:09,153 basehttp 5812 34220 "GET /api/v1/reports/financial/?start_date=&end_date= HTTP/1.1" 200 19609
+INFO 2026-07-12 12:38:19,013 basehttp 5812 34220 "GET /api/v1/reports/fleet/?start_date=&end_date= HTTP/1.1" 200 11366
+ERROR 2026-07-12 12:38:21,552 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:38:22,613 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:38:24,672 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:38:28,744 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:38:47,792 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:38:48,963 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:40:34,351 basehttp 5812 34220 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+INFO 2026-07-12 12:41:11,410 autoreload 5812 2268 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\drivers\admin.py changed, reloading.
+INFO 2026-07-12 12:41:13,376 autoreload 16348 8164 Watching for file changes with StatReloader
+ERROR 2026-07-12 12:42:05,527 basehttp 16348 2268 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:42:17,710 basehttp 16348 2268 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+INFO 2026-07-12 12:43:46,318 autoreload 16348 8164 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\scheduling.py changed, reloading.
+INFO 2026-07-12 12:43:47,234 autoreload 9988 20072 Watching for file changes with StatReloader
+ERROR 2026-07-12 12:44:14,780 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+INFO 2026-07-12 12:44:17,310 basehttp 9988 16072 "GET /api/v1/reports/financial/?start_date=&end_date= HTTP/1.1" 200 19609
+INFO 2026-07-12 12:44:19,789 basehttp 9988 16072 "GET /api/v1/reports/fleet/?start_date=&end_date= HTTP/1.1" 200 11366
+ERROR 2026-07-12 12:44:24,541 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:44:25,602 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:44:27,778 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:44:31,849 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:46:29,370 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+ERROR 2026-07-12 12:46:30,445 basehttp 9988 16072 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 751
+INFO 2026-07-12 12:46:43,399 autoreload 9988 20072 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\reports\selectors.py changed, reloading.
+INFO 2026-07-12 12:46:44,635 autoreload 20696 29748 Watching for file changes with StatReloader
+ERROR 2026-07-12 12:46:53,389 basehttp 20696 28708 "GET /api/v1/reports/trips/?start_date=&end_date= HTTP/1.1" 500 743
+INFO 2026-07-12 12:49:25,037 autoreload 20696 29748 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\scheduling.py changed, reloading.
+INFO 2026-07-12 12:49:26,152 autoreload 34216 30396 Watching for file changes with StatReloader
+INFO 2026-07-12 12:49:46,498 autoreload 34216 30396 C:\Users\rudra\OneDrive\Desktop\Odoo-hackathon\backend\apps\trips\serializers.py changed, reloading.
+INFO 2026-07-12 12:49:47,677 autoreload 27080 30316 Watching for file changes with StatReloader

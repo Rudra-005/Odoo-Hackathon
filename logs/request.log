@@ -1,0 +1,300 @@
+INFO 2026-07-12 11:05:08,730 middleware 28164 34212 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:05:08,731 middleware 28164 30328 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:05:08,736 middleware 28164 29428 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:05:08,914 middleware 28164 30328 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.183s
+INFO 2026-07-12 11:05:08,917 middleware 28164 29428 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.181s
+INFO 2026-07-12 11:05:08,920 middleware 28164 34212 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.191s
+INFO 2026-07-12 11:05:09,932 middleware 28164 34212 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:05:09,934 middleware 28164 29428 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:05:09,953 middleware 28164 30328 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:05:10,047 middleware 28164 34212 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.115s
+INFO 2026-07-12 11:05:10,049 middleware 28164 30328 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.096s
+INFO 2026-07-12 11:05:10,051 middleware 28164 29428 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.116s
+INFO 2026-07-12 11:05:12,060 middleware 28164 29428 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:05:12,071 middleware 28164 30328 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:05:12,071 middleware 28164 34212 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:05:12,171 middleware 28164 29428 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.111s
+INFO 2026-07-12 11:05:12,178 middleware 28164 30328 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.108s
+INFO 2026-07-12 11:05:12,181 middleware 28164 34212 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.110s
+INFO 2026-07-12 11:05:16,190 middleware 28164 34212 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:05:16,201 middleware 28164 30328 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:05:16,203 middleware 28164 29428 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:05:16,275 middleware 28164 30328 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.073s
+INFO 2026-07-12 11:05:16,277 middleware 28164 29428 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.075s
+INFO 2026-07-12 11:05:16,279 middleware 28164 34212 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.089s
+INFO 2026-07-12 11:07:32,575 middleware 29144 25024 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:07:32,576 middleware 29144 20104 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:07:32,576 middleware 29144 23604 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:07:32,684 middleware 29144 23604 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.108s
+INFO 2026-07-12 11:07:32,687 middleware 29144 25024 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.111s
+INFO 2026-07-12 11:07:32,688 middleware 29144 20104 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.112s
+INFO 2026-07-12 11:07:33,692 middleware 29144 20104 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:07:33,703 middleware 29144 23604 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:07:33,704 middleware 29144 25024 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:07:33,807 middleware 29144 20104 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.115s
+INFO 2026-07-12 11:07:33,810 middleware 29144 23604 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.107s
+INFO 2026-07-12 11:07:33,815 middleware 29144 25024 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.111s
+INFO 2026-07-12 11:07:35,820 middleware 29144 25024 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:07:35,831 middleware 29144 23604 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:07:35,832 middleware 29144 20104 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:07:35,927 middleware 29144 23604 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.095s
+INFO 2026-07-12 11:07:35,930 middleware 29144 25024 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.110s
+INFO 2026-07-12 11:07:35,931 middleware 29144 20104 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.099s
+INFO 2026-07-12 11:07:39,937 middleware 29144 20104 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:07:39,951 middleware 29144 25024 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:07:39,952 middleware 29144 23604 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:07:40,057 middleware 29144 20104 Completed Request: GET /api/v1/dashboard/charts/ | Status: 500 | Duration: 0.119s
+INFO 2026-07-12 11:07:40,060 middleware 29144 23604 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.108s
+INFO 2026-07-12 11:07:40,062 middleware 29144 25024 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.111s
+INFO 2026-07-12 11:12:08,536 middleware 27860 18332 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:12:08,584 middleware 27860 18332 Completed Request: GET /api/v1/dashboard/summary/ | Status: 500 | Duration: 0.047s
+INFO 2026-07-12 11:12:49,938 middleware 27860 28748 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:12:49,961 middleware 27860 28748 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.023s
+INFO 2026-07-12 11:13:57,432 middleware 4188 33660 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:13:57,436 middleware 4188 33660 Completed Request: GET /api/v1/dashboard/summary/ | Status: 403 | Duration: 0.004s
+INFO 2026-07-12 11:14:51,682 middleware 30424 23808 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:14:51,756 middleware 30424 23808 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.075s
+INFO 2026-07-12 11:15:20,681 middleware 30424 18572 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:15:20,683 middleware 30424 19332 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:15:20,684 middleware 30424 21816 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:15:20,746 middleware 30424 19332 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.063s
+INFO 2026-07-12 11:15:20,749 middleware 30424 18572 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 11:15:20,766 middleware 30424 21816 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.082s
+INFO 2026-07-12 11:20:34,152 middleware 30424 30760 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:20:34,157 middleware 30424 28028 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:20:34,162 middleware 30424 25504 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:20:34,277 middleware 30424 28028 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.120s
+INFO 2026-07-12 11:20:34,284 middleware 30424 30760 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.132s
+INFO 2026-07-12 11:20:34,295 middleware 30424 25504 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.132s
+INFO 2026-07-12 11:20:44,033 middleware 30424 25504 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:20:44,034 middleware 30424 28028 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:20:44,037 middleware 30424 30760 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:20:44,144 middleware 30424 30760 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.107s
+INFO 2026-07-12 11:20:44,153 middleware 30424 25504 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.119s
+INFO 2026-07-12 11:20:44,163 middleware 30424 28028 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.129s
+INFO 2026-07-12 11:20:56,307 middleware 30424 28028 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:21:03,568 middleware 30424 28028 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 7.261s
+INFO 2026-07-12 11:21:03,699 middleware 30424 28028 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:21:03,757 middleware 30424 28028 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.059s
+INFO 2026-07-12 11:21:05,362 middleware 30424 28028 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 11:21:05,430 middleware 30424 28028 Completed Request: GET /api/v1/trips/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 11:21:07,420 middleware 30424 28028 Incoming Request: GET /api/v1/maintenance/ | User: AnonymousUser
+INFO 2026-07-12 11:21:07,587 middleware 30424 28028 Completed Request: GET /api/v1/maintenance/ | Status: 200 | Duration: 0.167s
+INFO 2026-07-12 11:21:08,937 middleware 30424 28028 Incoming Request: GET /api/v1/fuel/ | User: AnonymousUser
+INFO 2026-07-12 11:21:08,998 middleware 30424 28028 Completed Request: GET /api/v1/fuel/ | Status: 200 | Duration: 0.061s
+INFO 2026-07-12 11:21:11,206 middleware 30424 28028 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 11:21:11,395 middleware 30424 28028 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.188s
+INFO 2026-07-12 11:21:16,574 middleware 30424 28028 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 11:21:16,650 middleware 30424 28028 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 11:21:19,005 middleware 30424 28028 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:21:19,005 middleware 30424 25504 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:21:19,006 middleware 30424 30760 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:21:19,082 middleware 30424 25504 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 11:21:19,092 middleware 30424 28028 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.088s
+INFO 2026-07-12 11:21:19,195 middleware 30424 30760 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.190s
+INFO 2026-07-12 11:24:04,963 middleware 30424 30760 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:24:04,965 middleware 30424 28028 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:24:04,966 middleware 30424 25504 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:24:05,049 middleware 30424 28028 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.084s
+INFO 2026-07-12 11:24:05,059 middleware 30424 30760 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.096s
+INFO 2026-07-12 11:24:05,067 middleware 30424 25504 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.102s
+INFO 2026-07-12 11:25:19,078 middleware 30424 25504 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:25:19,081 middleware 30424 28028 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:25:19,083 middleware 30424 30760 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:25:19,150 middleware 30424 30760 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 11:25:19,151 middleware 30424 25504 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.073s
+INFO 2026-07-12 11:25:19,165 middleware 30424 28028 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.085s
+INFO 2026-07-12 11:30:00,328 middleware 33508 22952 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:30:00,330 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:30:00,331 middleware 33508 10476 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:30:00,405 middleware 33508 22952 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.077s
+INFO 2026-07-12 11:30:00,405 middleware 33508 10476 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.074s
+INFO 2026-07-12 11:30:00,417 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.086s
+INFO 2026-07-12 11:30:01,419 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:30:01,482 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.063s
+INFO 2026-07-12 11:30:03,489 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:30:03,555 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.067s
+INFO 2026-07-12 11:30:07,567 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:30:07,634 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.067s
+INFO 2026-07-12 11:31:24,870 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:31:24,871 middleware 33508 10476 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:31:24,872 middleware 33508 22952 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:31:24,971 middleware 33508 10476 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.100s
+INFO 2026-07-12 11:31:24,975 middleware 33508 22952 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.103s
+INFO 2026-07-12 11:31:24,981 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.111s
+INFO 2026-07-12 11:31:25,983 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:31:26,050 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.067s
+INFO 2026-07-12 11:31:28,059 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:31:28,126 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.067s
+INFO 2026-07-12 11:31:32,135 middleware 33508 2460 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:31:32,194 middleware 33508 2460 Completed Request: GET /api/v1/dashboard/recent/ | Status: 500 | Duration: 0.059s
+INFO 2026-07-12 11:32:30,605 middleware 7840 16672 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:32:30,606 middleware 7840 29228 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:32:30,606 middleware 7840 31232 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:32:30,713 middleware 7840 16672 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.108s
+INFO 2026-07-12 11:32:30,719 middleware 7840 29228 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.113s
+INFO 2026-07-12 11:32:30,728 middleware 7840 31232 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.123s
+INFO 2026-07-12 11:32:33,731 middleware 7840 31232 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:32:33,796 middleware 7840 31232 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.066s
+INFO 2026-07-12 11:32:36,034 middleware 7840 31232 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 11:32:36,102 middleware 7840 31232 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 11:32:37,639 middleware 7840 31232 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 11:32:37,852 middleware 7840 31232 Completed Request: GET /api/v1/trips/ | Status: 500 | Duration: 0.214s
+INFO 2026-07-12 11:32:38,860 middleware 7840 31232 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 11:32:39,247 middleware 7840 31232 Completed Request: GET /api/v1/trips/ | Status: 500 | Duration: 0.388s
+INFO 2026-07-12 11:32:41,268 middleware 7840 31232 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 11:32:41,905 middleware 7840 29228 Incoming Request: GET /api/v1/maintenance/ | User: AnonymousUser
+INFO 2026-07-12 11:32:42,113 middleware 7840 31232 Completed Request: GET /api/v1/trips/ | Status: 500 | Duration: 0.845s
+INFO 2026-07-12 11:32:42,149 middleware 7840 29228 Completed Request: GET /api/v1/maintenance/ | Status: 200 | Duration: 0.244s
+INFO 2026-07-12 11:32:44,670 middleware 7840 29228 Incoming Request: GET /api/v1/fuel/ | User: AnonymousUser
+INFO 2026-07-12 11:32:44,751 middleware 7840 29228 Completed Request: GET /api/v1/fuel/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 11:32:46,279 middleware 7840 29228 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 11:32:46,369 middleware 7840 29228 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.088s
+INFO 2026-07-12 11:32:50,570 middleware 7840 29228 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:32:50,638 middleware 7840 29228 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 11:33:47,608 middleware 19196 33784 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:33:48,021 middleware 19196 33784 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.414s
+INFO 2026-07-12 11:33:57,902 middleware 1768 33760 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:33:58,265 middleware 1768 33760 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.363s
+INFO 2026-07-12 11:34:06,938 middleware 18216 5076 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:34:07,289 middleware 18216 5076 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.351s
+INFO 2026-07-12 11:34:17,226 middleware 7840 29228 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:34:17,288 middleware 7840 29228 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 11:34:26,363 middleware 23752 34192 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:34:26,719 middleware 23752 34192 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.357s
+INFO 2026-07-12 11:34:35,861 middleware 24856 33324 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:34:36,212 middleware 24856 33324 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.351s
+INFO 2026-07-12 11:34:45,362 middleware 33768 25120 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:34:45,827 middleware 33768 25120 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.465s
+INFO 2026-07-12 11:35:51,817 middleware 31784 32644 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 11:35:52,316 middleware 31784 32644 Completed Request: GET /api/v1/trips/ | Status: 500 | Duration: 0.499s
+INFO 2026-07-12 11:35:59,478 middleware 7840 29228 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:35:59,563 middleware 7840 29228 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.084s
+INFO 2026-07-12 11:36:36,341 middleware 18164 32464 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:36:36,694 middleware 18164 32464 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.353s
+INFO 2026-07-12 11:36:46,691 middleware 29144 30492 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 11:36:47,063 middleware 29144 30492 Completed Request: GET /api/v1/trips/ | Status: 200 | Duration: 0.372s
+INFO 2026-07-12 11:37:03,920 middleware 33816 33188 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 11:37:04,000 middleware 33816 33188 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.081s
+INFO 2026-07-12 11:37:10,117 middleware 33816 33188 Incoming Request: GET /api/v1/dashboard/summary/ | User: AnonymousUser
+INFO 2026-07-12 11:37:10,120 middleware 33816 20440 Incoming Request: GET /api/v1/dashboard/charts/ | User: AnonymousUser
+INFO 2026-07-12 11:37:10,184 middleware 33816 20440 Completed Request: GET /api/v1/dashboard/charts/ | Status: 200 | Duration: 0.064s
+INFO 2026-07-12 11:37:10,186 middleware 33816 20440 Incoming Request: GET /api/v1/dashboard/recent/ | User: AnonymousUser
+INFO 2026-07-12 11:37:10,191 middleware 33816 33188 Completed Request: GET /api/v1/dashboard/summary/ | Status: 200 | Duration: 0.074s
+INFO 2026-07-12 11:37:10,259 middleware 33816 20440 Completed Request: GET /api/v1/dashboard/recent/ | Status: 200 | Duration: 0.073s
+INFO 2026-07-12 11:37:13,710 middleware 33816 20440 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 11:37:13,772 middleware 33816 20440 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 11:55:43,563 middleware 33816 7660 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 11:55:43,648 middleware 33816 7660 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.085s
+INFO 2026-07-12 12:00:53,310 middleware 33816 19668 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:00:53,393 middleware 33816 19668 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.083s
+INFO 2026-07-12 12:01:17,996 middleware 33816 19668 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:01:18,154 middleware 33816 19668 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.157s
+INFO 2026-07-12 12:02:56,787 middleware 33816 28332 Incoming Request: GET /admin/ | User: AnonymousUser
+INFO 2026-07-12 12:02:56,834 middleware 33816 28332 Completed Request: GET /admin/ | Status: 302 | Duration: 0.048s
+INFO 2026-07-12 12:02:56,840 middleware 33816 28332 Incoming Request: GET /admin/login/ | User: AnonymousUser
+INFO 2026-07-12 12:02:56,904 middleware 33816 28332 Completed Request: GET /admin/login/ | Status: 200 | Duration: 0.064s
+INFO 2026-07-12 12:02:57,200 middleware 33816 28332 Incoming Request: GET /favicon.ico | User: AnonymousUser
+INFO 2026-07-12 12:02:57,209 middleware 33816 28332 Completed Request: GET /favicon.ico | Status: 404 | Duration: 0.009s
+INFO 2026-07-12 12:04:52,412 middleware 33816 28332 Incoming Request: POST /admin/login/ | User: AnonymousUser
+INFO 2026-07-12 12:04:52,919 middleware 33816 28332 Completed Request: POST /admin/login/ | Status: 302 | Duration: 0.507s
+INFO 2026-07-12 12:04:52,977 middleware 33816 28332 Incoming Request: GET /admin/ | User:   (rudra@transitops.com)
+INFO 2026-07-12 12:04:53,041 middleware 33816 28332 Completed Request: GET /admin/ | Status: 200 | Duration: 0.114s
+INFO 2026-07-12 12:05:13,990 middleware 33816 19668 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:05:14,060 middleware 33816 19668 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.070s
+INFO 2026-07-12 12:09:28,352 middleware 23980 25968 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 12:09:28,542 middleware 23980 25968 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.190s
+INFO 2026-07-12 12:12:55,230 middleware 23980 25968 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:12:55,306 middleware 23980 25968 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 12:12:58,789 middleware 23980 25968 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:12:58,852 middleware 23980 25968 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.063s
+INFO 2026-07-12 12:13:01,301 middleware 23980 25968 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 12:13:01,467 middleware 23980 25968 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.166s
+INFO 2026-07-12 12:13:19,130 middleware 23980 25968 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:13:19,230 middleware 23980 25968 Completed Request: POST /api/v1/drivers/ | Status: 400 | Duration: 0.100s
+INFO 2026-07-12 12:13:20,588 middleware 23980 25968 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:13:20,643 middleware 23980 25968 Completed Request: POST /api/v1/drivers/ | Status: 400 | Duration: 0.055s
+INFO 2026-07-12 12:13:27,714 middleware 23980 25968 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:13:27,777 middleware 23980 25968 Completed Request: POST /api/v1/drivers/ | Status: 400 | Duration: 0.064s
+INFO 2026-07-12 12:15:23,774 middleware 23980 29700 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:15:23,833 middleware 23980 29700 Completed Request: POST /api/v1/drivers/ | Status: 400 | Duration: 0.058s
+INFO 2026-07-12 12:18:49,670 middleware 13952 9840 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:18:49,790 middleware 13952 9840 Completed Request: POST /api/v1/drivers/ | Status: 500 | Duration: 0.120s
+INFO 2026-07-12 12:21:44,715 middleware 29280 32356 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:21:44,834 middleware 29280 32356 Completed Request: POST /api/v1/drivers/ | Status: 201 | Duration: 0.119s
+INFO 2026-07-12 12:21:58,936 middleware 29280 7788 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 12:21:59,004 middleware 29280 7788 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 12:22:01,046 middleware 29280 33768 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:22:01,113 middleware 29280 33768 Completed Request: POST /api/v1/drivers/ | Status: 201 | Duration: 0.067s
+INFO 2026-07-12 12:22:26,379 middleware 29280 11136 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:22:26,449 middleware 29280 11136 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.070s
+INFO 2026-07-12 12:22:28,365 middleware 29280 11136 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:22:28,433 middleware 29280 11136 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.068s
+INFO 2026-07-12 12:22:31,761 middleware 29280 11136 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:22:31,828 middleware 29280 11136 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.067s
+INFO 2026-07-12 12:22:34,383 middleware 29280 11136 Incoming Request: GET /api/v1/vehicles/ | User: AnonymousUser
+INFO 2026-07-12 12:22:34,452 middleware 29280 11136 Completed Request: GET /api/v1/vehicles/ | Status: 200 | Duration: 0.069s
+INFO 2026-07-12 12:22:43,669 middleware 29280 11136 Incoming Request: POST /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:22:43,765 middleware 29280 11136 Completed Request: POST /api/v1/drivers/ | Status: 201 | Duration: 0.098s
+INFO 2026-07-12 12:22:43,773 middleware 29280 11136 Incoming Request: GET /api/v1/drivers/ | User: AnonymousUser
+INFO 2026-07-12 12:22:43,839 middleware 29280 11136 Completed Request: GET /api/v1/drivers/ | Status: 200 | Duration: 0.066s
+INFO 2026-07-12 12:23:16,764 middleware 29280 11136 Incoming Request: GET /api/v1/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:23:16,843 middleware 29280 11136 Completed Request: GET /api/v1/trips/ | Status: 200 | Duration: 0.079s
+INFO 2026-07-12 12:23:53,771 middleware 29280 11136 Incoming Request: GET /api/v1/maintenance/ | User: AnonymousUser
+INFO 2026-07-12 12:23:53,848 middleware 29280 11136 Completed Request: GET /api/v1/maintenance/ | Status: 200 | Duration: 0.076s
+INFO 2026-07-12 12:24:00,120 middleware 29280 11136 Incoming Request: GET /api/v1/fuel/ | User: AnonymousUser
+INFO 2026-07-12 12:24:00,200 middleware 29280 11136 Completed Request: GET /api/v1/fuel/ | Status: 200 | Duration: 0.080s
+INFO 2026-07-12 12:24:06,014 middleware 29280 11136 Incoming Request: GET /api/v1/expenses/ | User: AnonymousUser
+INFO 2026-07-12 12:24:06,096 middleware 29280 11136 Completed Request: GET /api/v1/expenses/ | Status: 200 | Duration: 0.083s
+INFO 2026-07-12 12:24:12,659 middleware 29280 11136 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:24:12,737 middleware 29280 11136 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.078s
+INFO 2026-07-12 12:24:22,115 middleware 29280 11136 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:24:22,184 middleware 29280 11136 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.069s
+INFO 2026-07-12 12:24:25,421 middleware 29280 11136 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:24:25,485 middleware 29280 11136 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.063s
+INFO 2026-07-12 12:24:31,751 middleware 29280 11136 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:24:31,814 middleware 29280 11136 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.062s
+INFO 2026-07-12 12:38:07,853 middleware 5812 34220 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:38:07,986 middleware 5812 34220 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.134s
+INFO 2026-07-12 12:38:09,082 middleware 5812 34220 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:38:09,152 middleware 5812 34220 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.070s
+INFO 2026-07-12 12:38:18,939 middleware 5812 34220 Incoming Request: GET /api/v1/reports/fleet/ | User: AnonymousUser
+INFO 2026-07-12 12:38:19,012 middleware 5812 34220 Completed Request: GET /api/v1/reports/fleet/ | Status: 200 | Duration: 0.074s
+INFO 2026-07-12 12:38:21,500 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:38:21,546 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.046s
+INFO 2026-07-12 12:38:22,561 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:38:22,612 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.051s
+INFO 2026-07-12 12:38:24,623 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:38:24,672 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.048s
+INFO 2026-07-12 12:38:28,679 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:38:28,742 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.063s
+INFO 2026-07-12 12:38:47,708 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:38:47,791 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.083s
+INFO 2026-07-12 12:38:48,802 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:38:48,961 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.159s
+INFO 2026-07-12 12:40:34,137 middleware 5812 34220 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:40:34,349 middleware 5812 34220 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.213s
+INFO 2026-07-12 12:42:05,447 middleware 16348 2268 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:42:05,523 middleware 16348 2268 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.076s
+INFO 2026-07-12 12:42:17,640 middleware 16348 2268 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:42:17,709 middleware 16348 2268 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.068s
+INFO 2026-07-12 12:44:14,714 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:44:14,775 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.062s
+INFO 2026-07-12 12:44:17,180 middleware 9988 16072 Incoming Request: GET /api/v1/reports/financial/ | User: AnonymousUser
+INFO 2026-07-12 12:44:17,308 middleware 9988 16072 Completed Request: GET /api/v1/reports/financial/ | Status: 200 | Duration: 0.128s
+INFO 2026-07-12 12:44:19,718 middleware 9988 16072 Incoming Request: GET /api/v1/reports/fleet/ | User: AnonymousUser
+INFO 2026-07-12 12:44:19,788 middleware 9988 16072 Completed Request: GET /api/v1/reports/fleet/ | Status: 200 | Duration: 0.070s
+INFO 2026-07-12 12:44:24,489 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:44:24,540 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.051s
+INFO 2026-07-12 12:44:25,550 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:44:25,601 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.051s
+INFO 2026-07-12 12:44:27,613 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:44:27,777 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.164s
+INFO 2026-07-12 12:44:31,786 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:44:31,847 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.061s
+INFO 2026-07-12 12:46:29,316 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:46:29,369 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.054s
+INFO 2026-07-12 12:46:30,378 middleware 9988 16072 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:46:30,444 middleware 9988 16072 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.066s
+INFO 2026-07-12 12:46:53,323 middleware 20696 28708 Incoming Request: GET /api/v1/reports/trips/ | User: AnonymousUser
+INFO 2026-07-12 12:46:53,385 middleware 20696 28708 Completed Request: GET /api/v1/reports/trips/ | Status: 500 | Duration: 0.063s

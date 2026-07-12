@@ -1,0 +1,33 @@
+export interface Trip {
+  id: string;
+  trip_number: string;
+  source: string;
+  destination: string;
+  intermediate_stops?: string;
+  region?: string;
+  region_name?: string;
+  vehicle: any;
+  driver: any;
+  vehicle_reg?: string;
+  driver_name?: string;
+  cargo_type: string;
+  cargo_description?: string;
+  cargo_weight: number;
+  planned_distance: number;
+  actual_distance?: number;
+  estimated_duration?: number;
+  actual_duration?: number;
+  revenue: number;
+  fuel_consumed?: number;
+  start_odometer?: number;
+  end_odometer?: number;
+  customer_name?: string;
+  customer_contact?: string;
+  dispatch_date?: string;
+  start_time?: string;
+  arrival_date?: string;
+  completion_date?: string;
+  remarks?: string;
+  status: 'DRAFT' | 'DISPATCHED' | 'IN_PROGRESS' | 'COMPLETED' | 'CANCELLED';
+  created_at: string;
+}

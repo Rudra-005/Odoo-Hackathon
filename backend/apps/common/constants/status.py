@@ -1,0 +1,24 @@
+class VehicleStatus:
+    AVAILABLE = 'AVAILABLE'
+    ON_TRIP = 'ON_TRIP'
+    MAINTENANCE = 'IN_SHOP'
+    RETIRED = 'RETIRED'
+
+class DriverStatus:
+    AVAILABLE = 'AVAILABLE'
+    ON_TRIP = 'ON_TRIP'
+    OFF_DUTY = 'OFF_DUTY'
+    SUSPENDED = 'SUSPENDED'
+
+class TripStatus:
+    DRAFT = 'DRAFT'
+    DISPATCHED = 'DISPATCHED'
+    IN_PROGRESS = 'IN_PROGRESS'
+    COMPLETED = 'COMPLETED'
+    CANCELLED = 'CANCELLED'
+
+class MaintenanceStatus:
+    SCHEDULED = 'SCHEDULED'
+    ACTIVE = 'ACTIVE'
+    COMPLETED = 'COMPLETED'
+    CANCELLED = 'CANCELLED'
