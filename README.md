@@ -51,6 +51,37 @@ This project avoids bloated views and "fat models" by adhering to a strict **Ser
 
 ---
 
+## 🗄️ Database Architecture (PostgreSQL)
+
+The ERP relies on a highly relational, normalized database schema designed for data integrity, rapid querying, and auditability:
+
+### 1. Identity & Access Management (IAM)
+- **`User`:** Custom user model supporting both email and username authentication, linked to a specific department and employee ID.
+- **`Role` & `Permission`:** Granular RBAC tables allowing dynamic creation of roles (e.g., Fleet Manager, Driver) and mapping to specific API endpoints.
+- **`FailedLoginAttempt`:** Tracks brute-force attempts for auto-locking accounts.
+
+### 2. Fleet & Assets
+- **`Vehicle`:** Core entity storing VIN, Make, Model, Year, Plate Number, Status (Active, Maintenance, Retired), and Current Mileage.
+- **`VehicleDocument`:** Tracks compliance documents (Insurance, Registration, Permits) with mandatory `expiry_date` fields.
+
+### 3. Human Resources
+- **`Driver`:** Extends user profiles with License Number, License Type, License Expiry, and current Availability Status. Tracks total trips completed and performance ratings.
+
+### 4. Operations & Logistics
+- **`Trip`:** The central operational model linking a `Vehicle`, a `Driver`, and Route details (Start Location, End Location). Contains state machines (Scheduled -> In Progress -> Completed -> Cancelled) and timestamps for actual vs. estimated departure/arrival.
+
+### 5. Maintenance & Diagnostics
+- **`MaintenanceRecord`:** Logs repair services, linking a `Vehicle` to Service Type, Cost, Description, and the servicing mechanic/vendor. Keeps the fleet healthy and extends vehicle lifespan.
+
+### 6. Financials
+- **`Expense`:** Universal ledger for all outgoing costs, categorized by Type (Toll, Food, Parking, Misc), linked to specific `Trip`s or `Vehicle`s.
+- **`FuelLog`:** Dedicated tracking for fuel consumption, recording Liters/Gallons filled, Total Cost, Odometers readings at fill-up, and automatically calculating MPG/KMPL.
+
+### 7. Security & Compliance
+- **`AuditLog`:** An immutable append-only table recording every significant action (LOGIN_SUCCESS, ACCOUNT_LOCKED, TRIP_DELETED) along with the `User`, `IP Address`, and `User-Agent`.
+
+---
+
 ## 💻 Tech Stack
 
 - **Backend:** Python 3.13, Django 5.x, Django REST Framework, SimpleJWT
